@@ -153,21 +153,21 @@ func (csvRecord *CSVRecord) parse(record []string, line int) {
 		case 4:
 			csvRecord.Population = value
 		case 5:
-			csvRecord.Latitude = parseCoordinate(idx, value)
+			csvRecord.Latitude = parseCoordinate(idx, line, value)
 		case 6:
-			csvRecord.Longitude = parseCoordinate(idx, value)
+			csvRecord.Longitude = parseCoordinate(idx, line, value)
 		case 7:
-			csvRecord.Height = parseCoordinate(idx, value)
+			csvRecord.Height = parseCoordinate(idx, line, value)
 		}
 	}
 }
 
-func parseCoordinate(idx int, csvField string) float64 {
+func parseCoordinate(idx int, line int, csvField string) float64 {
 
 	floatValue, err := strconv.ParseFloat(strings.TrimSpace(csvField), 64)
 
 	if err != nil {
-		log.Printf("Parsing coordinates %s to float value failed in position %d\n", csvField, idx)
+		log.Printf("Line: %v parsing coordinates %s to float value failed in position %d\n", line, csvField, idx)
 	}
 
 	return floatValue
