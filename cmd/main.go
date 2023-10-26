@@ -5,7 +5,7 @@ import (
 	"github.com/audetv/datasets-parser/app/repos/dataset"
 	"github.com/audetv/datasets-parser/app/repos/entity"
 	"github.com/audetv/datasets-parser/app/starter"
-	"github.com/audetv/datasets-parser/dataset/bibleplaces"
+	"github.com/audetv/datasets-parser/dataset/allcities"
 	"github.com/audetv/datasets-parser/db/entitystore"
 	"log"
 	"os"
@@ -15,7 +15,7 @@ import (
 func main() {
 	ctx, _ := signal.NotifyContext(context.Background(), os.Interrupt)
 
-	path := "data/all-bible-places.csv"
+	path := "data/utf8.all-cities-with-a-population.csv"
 
 	dsn := "host=localhost user=app password=secret dbname=geomatrix port=54325 sslmode=disable TimeZone=Europe/Moscow"
 	log.Println("подготовка соединения с базой данных")
@@ -30,7 +30,7 @@ func main() {
 	entityStore = dbEntityStore
 
 	var entries dataset.Store
-	entries, err = bibleplaces.NewCSVEntries(path)
+	entries, err = allcities.NewCSVEntries(path)
 	if err != nil {
 		log.Fatal(err)
 	}

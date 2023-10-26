@@ -16,7 +16,7 @@ type Entity struct {
 	Longitude       float64
 	Latitude        float64
 	Height          float64
-	DescriptionJson string
+	DescriptionJson interface{}
 }
 
 type Store interface {

@@ -17,7 +17,7 @@ type DBEntity struct {
 	Longitude       float64
 	Latitude        float64
 	Height          float64
-	DescriptionJson string
+	DescriptionJson interface{} `gorm:"type:json"`
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
 	DeletedAt       *time.Time
