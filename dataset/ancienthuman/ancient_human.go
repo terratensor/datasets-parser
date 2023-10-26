@@ -118,6 +118,7 @@ func getDescriptionJson(record CSVRecord) DescriptionJson {
 
 func (csvRecord *CSVRecord) parse(record []string, line int) {
 
+	//log.Println(record)
 	// Parse each of the values in the record based on an expected type.
 	for idx, value := range record {
 
@@ -126,7 +127,8 @@ func (csvRecord *CSVRecord) parse(record []string, line int) {
 			if value == "" {
 				log.Printf("Parsing line %d failed, unexpected type in column %d\n", line, idx)
 				csvRecord.ParseError = fmt.Errorf("empty string value")
-				break
+				csvRecord.Name = "untitled"
+				continue
 			}
 			csvRecord.Name = value
 			continue
