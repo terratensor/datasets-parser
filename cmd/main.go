@@ -15,7 +15,7 @@ import (
 func main() {
 	ctx, _ := signal.NotifyContext(context.Background(), os.Interrupt)
 
-	path := "data/all-bible-places.csv"
+	path := "data/all-bible-places1.csv"
 
 	dsn := "host=localhost user=app password=secret dbname=geomatrix port=54325 sslmode=disable TimeZone=Europe/Moscow"
 	log.Println("подготовка соединения с базой данных")
@@ -31,8 +31,11 @@ func main() {
 
 	var entries dataset.Store
 	entries, err = bibleplaces.NewCSVEntries(path)
+	if err != nil {
+		log.Fatal(err)
+	}
 
-	app := starter.NewApp(entries, entityStore)
+	app := starter.NewApp(entries, entityStore, path)
 
 	app.Process(ctx)
 
