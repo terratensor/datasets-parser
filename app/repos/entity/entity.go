@@ -21,6 +21,7 @@ type Entity struct {
 
 type Store interface {
 	Create(ctx context.Context, e Entity) error
+	BulkInsert(ctx context.Context, entities []Entity, batchSize int) error
 }
 
 type Entities struct {
@@ -40,4 +41,12 @@ func (es *Entities) Create(ctx context.Context, e Entity) (*Entity, error) {
 		return nil, fmt.Errorf("create entity error: %w", err)
 	}
 	return &e, nil
+}
+
+func (es *Entities) BulkInsert(ctx context.Context, entities []Entity, batchSize int) error {
+	err := es.store.BulkInsert(ctx, entities, batchSize)
+	if err != nil {
+		return fmt.Errorf("entities batch insert error: %w", err)
+	}
+	return nil
 }

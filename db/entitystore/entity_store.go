@@ -9,6 +9,8 @@ import (
 	"time"
 )
 
+type DBEntities []*DBEntity
+
 type DBEntity struct {
 	ID              uuid.UUID `gorm:"type:uuid"`
 	Filename        string
@@ -46,16 +48,16 @@ func NewEntities(dsn string) (*Entities, error) {
 	return bs, nil
 }
 
-func (es *Entities) Create(ctx context.Context, b entity.Entity) error {
+func (es *Entities) Create(ctx context.Context, e entity.Entity) error {
 	dbEntity := DBEntity{
-		ID:              b.ID,
-		Name:            b.Name,
-		Filename:        b.Filename,
-		Description:     b.Description,
-		Longitude:       b.Longitude,
-		Latitude:        b.Latitude,
-		Height:          b.Height,
-		DescriptionJson: b.DescriptionJson,
+		ID:              e.ID,
+		Name:            e.Name,
+		Filename:        e.Filename,
+		Description:     e.Description,
+		Longitude:       e.Longitude,
+		Latitude:        e.Latitude,
+		Height:          e.Height,
+		DescriptionJson: e.DescriptionJson,
 		CreatedAt:       time.Now(),
 		UpdatedAt:       time.Now(),
 		DeletedAt:       nil,
@@ -63,5 +65,27 @@ func (es *Entities) Create(ctx context.Context, b entity.Entity) error {
 
 	result := es.db.WithContext(ctx).Create(&dbEntity)
 
+	return result.Error
+}
+
+func (es *Entities) BulkInsert(ctx context.Context, entities []entity.Entity, batchSize int) error {
+	var dbEnts DBEntities
+	for _, e := range entities {
+		dbEntity := DBEntity{
+			ID:              e.ID,
+			Name:            e.Name,
+			Filename:        e.Filename,
+			Description:     e.Description,
+			Longitude:       e.Longitude,
+			Latitude:        e.Latitude,
+			Height:          e.Height,
+			DescriptionJson: e.DescriptionJson,
+			CreatedAt:       time.Now(),
+			UpdatedAt:       time.Now(),
+			DeletedAt:       nil,
+		}
+		dbEnts = append(dbEnts, &dbEntity)
+	}
+	result := es.db.WithContext(ctx).CreateInBatches(dbEnts, batchSize)
 	return result.Error
 }

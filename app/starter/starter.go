@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/audetv/datasets-parser/app/repos/dataset"
 	"github.com/audetv/datasets-parser/app/repos/entity"
+	"github.com/google/uuid"
 	"log"
 )
 
@@ -28,14 +29,17 @@ func (a App) Process(ctx context.Context) {
 		log.Panic(err)
 	}
 
-	var entries []dataset.Entry
+	var entities []entity.Entity
+	batchSize := 3500
+	batchSizeCount := 0
+
 	for {
 		entry, ok := <-chin
 		if !ok {
 			break // exit break loop
 		} else {
-			entries = append(entries, entry)
 			en := entity.Entity{
+				ID:              uuid.New(),
 				Filename:        a.filename,
 				Name:            entry.Name,
 				Description:     entry.Description,
@@ -45,10 +49,23 @@ func (a App) Process(ctx context.Context) {
 				DescriptionJson: entry.DescriptionJson,
 			}
 
-			_, err := a.entities.Create(ctx, en)
+			entities = append(entities, en)
+			batchSizeCount++
+			//_, err := a.entities.Create(ctx, en)
+			//if err != nil {
+			//	return
+			//}
+		}
+
+		// Записываем пакетам по batchSize параграфов
+		if batchSizeCount == batchSize-1 {
+			err = a.entities.BulkInsert(ctx, entities, len(entities))
 			if err != nil {
-				return
+				log.Printf("log bulk insert error query: %v \r\n", err)
 			}
+			// очищаем slice
+			entities = nil
+			batchSizeCount = 0
 		}
 	}
 
