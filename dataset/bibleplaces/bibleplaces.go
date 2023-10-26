@@ -24,6 +24,10 @@ type CSVRecord struct {
 	ParseError   error
 }
 
+type DescriptionJson struct {
+	Description2 string
+}
+
 type Entries struct {
 	path string
 }
@@ -96,7 +100,7 @@ func (nd *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 				Longitude:       csvRecord.Longitude,
 				Latitude:        csvRecord.Latitude,
 				Height:          csvRecord.Height,
-				DescriptionJson: csvRecord.Description2,
+				DescriptionJson: getDescriptionJson(csvRecord),
 			}:
 			}
 			// Increment the line counter.
@@ -105,6 +109,12 @@ func (nd *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 	}()
 
 	return chout, nil
+}
+
+func getDescriptionJson(record CSVRecord) DescriptionJson {
+	return DescriptionJson{
+		Description2: record.Description2,
+	}
 }
 
 func (csvRecord *CSVRecord) parse(record []string, line int) {
@@ -130,21 +140,21 @@ func (csvRecord *CSVRecord) parse(record []string, line int) {
 		case 2:
 			csvRecord.Description2 = value
 		case 3:
-			csvRecord.Longitude = parseCoordinate(idx, value)
+			csvRecord.Longitude = parseCoordinate(idx, line, value)
 		case 4:
-			csvRecord.Latitude = parseCoordinate(idx, value)
+			csvRecord.Latitude = parseCoordinate(idx, line, value)
 		case 5:
-			csvRecord.Height = parseCoordinate(idx, value)
+			csvRecord.Height = parseCoordinate(idx, line, value)
 		}
 	}
 }
 
-func parseCoordinate(idx int, csvField string) float64 {
+func parseCoordinate(idx int, line int, csvField string) float64 {
 
 	floatValue, err := strconv.ParseFloat(strings.TrimSpace(csvField), 64)
 
 	if err != nil {
-		log.Printf("Parsing coordinates %s to float value failed in position %d\n", csvField, idx)
+		log.Printf("Line: %v parsing coordinates %s to float value failed in position %d\n", line, csvField, idx)
 	}
 
 	return floatValue
