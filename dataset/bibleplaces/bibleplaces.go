@@ -19,8 +19,8 @@ type CSVRecord struct {
 	Description  string
 	Description2 string
 	Longitude    float64
-	latitude     float64
-	height       float64
+	Latitude     float64
+	Height       float64
 	ParseError   error
 }
 
@@ -29,6 +29,11 @@ type Entries struct {
 }
 
 func NewCSVEntries(path string) (*Entries, error) {
+	_, err := os.Stat(path)
+	if err != nil {
+		return nil, err
+	}
+
 	es := &Entries{
 		path: path,
 	}
@@ -58,7 +63,8 @@ func (nd *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 
 		// Создаём новый CSV reader, читающий записи из открытого файла.
 		reader := csv.NewReader(f)
-		reader.FieldsPerRecord = 5
+		reader.FieldsPerRecord = 6
+		reader.Comma = ';'
 
 		// line will help us keep track of line number for logging.
 		line := 0
@@ -88,8 +94,8 @@ func (nd *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 				Name:            csvRecord.Name,
 				Description:     csvRecord.Description,
 				Longitude:       csvRecord.Longitude,
-				Latitude:        csvRecord.latitude,
-				Height:          csvRecord.height,
+				Latitude:        csvRecord.Latitude,
+				Height:          csvRecord.Height,
 				DescriptionJson: csvRecord.Description2,
 			}:
 			}
@@ -122,21 +128,23 @@ func (csvRecord *CSVRecord) parse(record []string, line int) {
 		case 1:
 			csvRecord.Description = value
 		case 2:
-			csvRecord.Longitude = parseCoordinate(value)
+			csvRecord.Description2 = value
 		case 3:
-			csvRecord.latitude = parseCoordinate(value)
+			csvRecord.Longitude = parseCoordinate(idx, value)
 		case 4:
-			csvRecord.height = parseCoordinate(value)
+			csvRecord.Latitude = parseCoordinate(idx, value)
+		case 5:
+			csvRecord.Height = parseCoordinate(idx, value)
 		}
 	}
 }
 
-func parseCoordinate(csvField string) float64 {
+func parseCoordinate(idx int, csvField string) float64 {
 
 	floatValue, err := strconv.ParseFloat(strings.TrimSpace(csvField), 64)
 
 	if err != nil {
-		log.Printf("Parsing coordinates %s to float value failed in position %d\n", csvField)
+		log.Printf("Parsing coordinates %s to float value failed in position %d\n", csvField, idx)
 	}
 
 	return floatValue

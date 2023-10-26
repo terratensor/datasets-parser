@@ -15,7 +15,7 @@ import (
 func main() {
 	ctx, _ := signal.NotifyContext(context.Background(), os.Interrupt)
 
-	path := "data/all-bible-places1.csv"
+	path := "data/all-bible-places.csv"
 
 	dsn := "host=localhost user=app password=secret dbname=geomatrix port=54325 sslmode=disable TimeZone=Europe/Moscow"
 	log.Println("подготовка соединения с базой данных")
