@@ -122,6 +122,12 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 			return nil, err
 		}
 		return ne, nil
+	case "Ancient Locations al_sites.csv":
+		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
 	default:
 		return nil, fmt.Errorf("%v file not supported", filename)
 	}
