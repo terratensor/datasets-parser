@@ -2,29 +2,30 @@ package starter
 
 import (
 	"context"
+	"fmt"
 	"github.com/audetv/datasets-parser/app/repos/dataset"
 	"github.com/audetv/datasets-parser/app/repos/entity"
+	"github.com/audetv/datasets-parser/dataset/allcities"
+	"github.com/audetv/datasets-parser/dataset/bibleplaces"
 	"github.com/google/uuid"
 	"log"
+	"os"
 )
 
 type App struct {
-	entries  *dataset.Entries
 	entities *entity.Entities
-	filename string
 }
 
-func NewApp(entries dataset.Store, store entity.Store, filename string) *App {
+func NewApp(store entity.Store) *App {
 	app := &App{
-		entries:  dataset.NewEntries(entries),
 		entities: entity.NewEntities(store),
-		filename: filename,
 	}
 	return app
 }
 
-func (a App) Process(ctx context.Context) {
-	chin, err := a.entries.ReadAll(ctx)
+func (a *App) parseDataset(ctx context.Context, entries dataset.Store, filename string) {
+
+	chin, err := entries.ReadAll(ctx)
 	if err != nil {
 		log.Panic(err)
 	}
@@ -40,7 +41,7 @@ func (a App) Process(ctx context.Context) {
 		} else {
 			en := entity.Entity{
 				ID:              uuid.New(),
-				Filename:        a.filename,
+				Filename:        filename,
 				Name:            entry.Name,
 				Description:     entry.Description,
 				Longitude:       entry.Longitude,
@@ -51,10 +52,6 @@ func (a App) Process(ctx context.Context) {
 
 			entities = append(entities, en)
 			batchSizeCount++
-			//_, err := a.entities.Create(ctx, en)
-			//if err != nil {
-			//	return
-			//}
 		}
 
 		// Записываем пакетам по batchSize параграфов
@@ -68,6 +65,53 @@ func (a App) Process(ctx context.Context) {
 			batchSizeCount = 0
 		}
 	}
+}
 
-	//log.Println(entries)
+func (a *App) Process(ctx context.Context) {
+
+	folder := "data"
+	// читаем все файлы в директории
+	files, err := os.ReadDir(folder)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var entries dataset.Store
+
+	// итерируемся по списку файлов
+	for _, file := range files {
+		if file.IsDir() == false {
+			// если файл gitignore, то ничего не делаем пропускаем и продолжаем цикл
+			if file.Name() == ".gitignore" {
+				continue
+			}
+
+			entries, err = getEntriesInstance(entries, folder, file.Name())
+			if err != nil {
+				log.Println(err)
+				continue
+			}
+			a.parseDataset(ctx, entries, file.Name())
+		}
+	}
+}
+
+func getEntriesInstance(entries dataset.Store, folder string, filename string) (dataset.Store, error) {
+
+	switch filename {
+	case "all-bible-places.csv":
+		ne, err := bibleplaces.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "utf8.all-cities-with-a-population.csv":
+		ne, err := allcities.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	default:
+		return nil, fmt.Errorf("%v file not supported", filename)
+	}
 }
