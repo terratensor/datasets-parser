@@ -6,6 +6,7 @@ import (
 	"github.com/audetv/datasets-parser/app/repos/dataset"
 	"github.com/audetv/datasets-parser/app/repos/entity"
 	"github.com/audetv/datasets-parser/dataset/allcities"
+	"github.com/audetv/datasets-parser/dataset/ancienthuman"
 	"github.com/audetv/datasets-parser/dataset/bibleplaces"
 	"github.com/google/uuid"
 	"log"
@@ -65,6 +66,10 @@ func (a *App) parseDataset(ctx context.Context, entries dataset.Store, filename 
 			batchSizeCount = 0
 		}
 	}
+	// Если batchSizeCount меньше batchSize, то записываем оставшиеся параграфы
+	if len(entities) > 0 {
+		err = a.entities.BulkInsert(ctx, entities, len(entities))
+	}
 }
 
 func (a *App) Process(ctx context.Context) {
@@ -107,6 +112,12 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 		return ne, nil
 	case "utf8.all-cities-with-a-population.csv":
 		ne, err := allcities.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "All_ancient_human_dna.csv":
+		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
 		}
