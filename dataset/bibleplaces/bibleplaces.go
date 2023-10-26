@@ -25,7 +25,7 @@ type CSVRecord struct {
 }
 
 type DescriptionJson struct {
-	Description2 string
+	Description string `json:"description,omitempty"`
 }
 
 type Entries struct {
@@ -113,7 +113,7 @@ func (nd *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 
 func getDescriptionJson(record CSVRecord) DescriptionJson {
 	return DescriptionJson{
-		Description2: record.Description2,
+		Description: record.Description2,
 	}
 }
 

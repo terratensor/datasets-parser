@@ -27,9 +27,9 @@ type CSVRecord struct {
 }
 
 type DescriptionJson struct {
-	Elevation  int
-	Country    string
-	Population int
+	Elevation  int    `json:"elevation,omitempty"`
+	Country    string `json:"country,omitempty"`
+	Population int    `json:"population,omitempty"`
 }
 
 type Entries struct {
