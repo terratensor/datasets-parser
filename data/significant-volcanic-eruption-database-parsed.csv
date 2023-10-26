@@ -1,0 +1,836 @@
+﻿Volcano Name;Year;Month;Day;Elevation;Volcano Type;Status;Location;Country;Flag Tsunami;Flag Earthquake;Volcanic Explosivity Index;Deaths;Missing;Injuries;Damage (in M$);Damage Description;Houses destroyed;Lat;Lon;Height
+Etna;-141;;;3350;Stratovolcano;Historical;Italy;Italy;;;;40;;;;;;37.734;15.004;0
+Katla;1262;;;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;3;;;;;;;63.63;-19.05;0
+Hekla;1300;7;11;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;;;;;;;63.98;-19.7;0
+Aso;1331;12;;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;;;;;;;32.88;131.1;0
+Vesuvius;1714;6;30;1281;Complex volcano;Historical;Italy;Italy;Tsunami;;;;;;;;;40.821;14.426;0
+Savai'i;1907;10;6;1858;Shield volcano;Historical;Samoa-SW Pacific;Samoa;Tsunami;;;;;;;SEVERE (~>$5 to $24 million);;-13.612;-172.525;0
+Asama;1911;8;15;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;;;;;;;36.4;138.53;0
+Colima;1913;1;20;3850;Stratovolcano;Historical;Mexico;Mexico;;;4;13;;;;;;19.514;-103.62;0
+Cleveland;1944;6;10;1730;Stratovolcano;Historical;Aleutian Is;United States;;;3;1;;;;;;52.82;-169.95;0
+Myojun Knoll;1952;9;16;360;Submarine volcano;Holocene;Izu Is-Japan;Japan;Tsunami;;2;;;;;;;32.1;139.85;0
+Puyehue;1960;5;25;2236;Stratovolcano;Holocene;Chile-C;Chile;Tsunami;Earthquake;3;;;;;;;-40.59;-72.117;0
+La Palma;1971;10;26;2426;Stratovolcano;Historical;Canary Is;Spain;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;28.58;-17.83;0
+Ritter Island;1972;10;9;140;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;Tsunami;;1;;;;;;;-5.52;148.121;0
+Soufriere St. Vincent;1979;4;13;1220;Stratovolcano;Historical;W Indies;St. Vincent & the Grenadines;;;3;2;;;;;;13.33;-61.18;0
+Miyake-jima;1983;10;3;815;Stratovolcano;Historical;Izu Is-Japan;Japan;;Earthquake;3;;;;;LIMITED (roughly corresponding to less than $1 million);;34.08;139.53;0
+Etna;1984;10;16;3350;Stratovolcano;Historical;Italy;Italy;;;3;1;;;;;;37.734;15.004;0
+Aso;1990;10;19;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;1;;;;;;32.88;131.1;0
+Etna;1991;12;14;3350;Stratovolcano;Historical;Italy;Italy;;;2;;;;2.5;MODERATE (~$1 to $5 million);;37.734;15.004;0
+Semeru;1994;2;3;3676;Stratovolcano;Historical;Java;Indonesia;;;3;6;;;;;;-8.108;112.92;0
+Salak;2007;7;7;2211;Stratovolcano;Historical;Java;Indonesia;;;;6;;;;;;-6.72;106.73;0
+Fuego;2017;6;6;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;2;;;;;MODERATE (~$1 to $5 million);;14.473;-90.88;0
+Aoba;2017;9;23;1496;Shield volcano;Historical;Vanuatu-SW Pacific;Vanuatu;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;-15.4;167.83;0
+Aoba;2018;3;30;1496;Shield volcano;Historical;Vanuatu-SW Pacific;Vanuatu;;;3;4;;;;MODERATE (~$1 to $5 million);;-15.4;167.83;0
+Stromboli;2019;8;28;926;Stratovolcano;Historical;Italy;Italy;Tsunami;;2;;;;;;;38.789;15.213;0
+Raung;1593;;;3332;Stratovolcano;Historical;Java;Indonesia;;;5;;;;;;;-8.125;114.042;0
+Tengchong;1609;;;2865;Pyroclastic cone;Historical;China-S;China;;;;;;;;;;25.32;98.47;0
+Serua;1692;6;4;641;Stratovolcano;Historical;Banda Sea;Pacific Ocean;;;4;;;;;;;-6.3;130;0
+Pico;1718;2;1;2351;Stratovolcano;Historical;Azores;Portugal;;;2;2;;;;;;38.47;-28.4;0
+Taupo;1846;5;7;760;Caldera;Radiocarbon;New Zealand;New Zealand;;;;63;;;;;;-38.82;176;0
+Santorini;1866;2;20;329;Shield volcano;Historical;Greece;Greece;;;2;1;;;;;;36.404;25.396;0
+Mauna Loa;1877;2;14;4170;Shield volcano;Historical;Hawaiian Is;United States;Tsunami;Earthquake;0;;;;;;;19.475;-155.608;0
+Bagana;1883;12;;1750;Lava cone;Historical;Bougainville-SW Paci;Papua New Guinea;;;3;;;;;;;-6.14;155.195;0
+Niuafo'ou;1886;8;31;260;Shield volcano;Historical;Tonga-SW Pacific;Tonga;;;4;;;;;;;-15.6;-175.63;0
+Kirishima;1896;3;15;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;2;1;;1;;;;31.93;130.87;0
+Pelee;1902;5;8;1397;Stratovolcano;Historical;W Indies;Martinique;Tsunami;;4;28000;;;;;;14.82;-61.17;0
+Aoba;1914;;;1496;Shield volcano;Historical;Vanuatu-SW Pacific;Vanuatu;;;;100;;;;;;-15.4;167.83;0
+Papandayan;1923;3;11;2665;Stratovolcano;Historical;Java;Indonesia;;;1;1;;;;;;-7.32;107.73;0
+Santorini;1928;1;23;329;Shield volcano;Historical;Greece;Greece;;;2;48;;;;;;36.404;25.396;0
+Akagi;1947;9;16;1828;Stratovolcano;Historical;Honshu-Japan;Japan;;;;699;;;;;;36.53;139.18;0
+Agung;1963;3;18;3142;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;Tsunami;;5;1028;;624;;;;-8.342;115.508;0
+Semeru;1963;5;5;3676;Stratovolcano;Historical;Java;Indonesia;;;2;1;;;;;;-8.108;112.92;0
+Taal;1965;9;28;400;Stratovolcano;Historical;Luzon-Philippines;Philippines;Tsunami;;4;355;;;;LIMITED (roughly corresponding to less than $1 million);;14.002;120.993;0
+Vestmannaeyjar;1973;1;27;279;Submarine volcano;Historical;Iceland-S;Iceland;;;3;1;;;;;;63.43;-20.28;0
+Karangetang [Api Siau];1974;2;11;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;3;4;;;;;;2.78;125.48;0
+Kilauea;1975;11;29;1222;Shield volcano;Historical;Hawaiian Is;United States;Tsunami;Earthquake;0;;;;;;;19.425;-155.292;0
+Chichon, El;1982;5;27;1150;Tuff cone;Historical;Mexico;Mexico;;;5;1;;;;;;17.36;-93.228;0
+Oku Volc Field;1986;8;21;3011;Maar;Radiocarbon;Africa-W;Cameroon;;;3;1700;;300;;;;6.25;10.5;0
+Semeru;1992;;;3676;Stratovolcano;Historical;Java;Indonesia;;;3;3;;;;;;-8.108;112.92;0
+Yasur;1994;1;15;361;Stratovolcano;Historical;Vanuatu-SW Pacific;Vanuatu;;;3;1;;;;;;-19.52;169.425;0
+San Cristobal;1998;10;30;1745;Stratovolcano;Historical;Nicaragua;Nicaragua;;;;1620;;;;;;12.702;-87.004;0
+Tengger Caldera;2004;6;8;2329;Stratovolcano;Historical;Java;Indonesia;;;2;2;;5;;;;-7.942;112.95;0
+Huila;2007;4;18;5365;Stratovolcano;Historical;Colombia;Colombia;;;;;;;;MODERATE (~$1 to $5 million);;2.92;-76.05;0
+Chaiten;2008;5;2;962;Caldera;Holocene;Chile-S;Chile;;;;1;;;;;;-42.833;-72.646;0
+Kasatochi;2008;8;8;314;Stratovolcano;Historical;Aleutian Is;United States;Tsunami;;3;;;;;;;52.18;-175.5;0
+Merapi;2017;12;18;2947;Stratovolcano;Historical;Java;Indonesia;;;;8;;8;;;;-7.542;110.442;0
+Masaya;-4050;;;635;Caldera;Historical;Nicaragua;Nicaragua;;;6;;;;;;;11.984;-86.161;0
+Vesuvius;-2420;;;1281;Complex volcano;Historical;Italy;Italy;;;5;;;;;;;40.821;14.426;0
+Vesuvius;79;8;25;1281;Complex volcano;Historical;Italy;Italy;Tsunami;Earthquake;5;2100;;;;;;40.821;14.426;0
+Chichon, El;1375;;;1150;Tuff cone;Historical;Mexico;Mexico;;;5;;;;;;;17.36;-93.228;0
+Kelut;1376;;;1731;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;;;-7.93;112.308;0
+Campi Flegrei;1538;9;29;458;Caldera;Historical;Italy;Italy;;;3;24;;;;;;40.827;14.139;0
+Unzen;1664;4;15;1500;Complex volcano;Historical;Kyushu-Japan;Japan;;;2;30;;;;;;32.75;130.3;0
+Cotopaxi;1698;;;5911;Stratovolcano;Historical;Ecuador;Ecuador;;;3;;;;;;;-0.677;-78.436;0
+Gamalama;1775;;;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;3;1300;;;;;;0.8;127.325;0
+Mayon;1800;10;30;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;;;;;;;13.257;123.685;0
+Usu;1822;3;9;731;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;4;50;;53;;;;42.53;140.83;0
+Galunggung;1822;10;8;2168;Stratovolcano;Historical;Java;Indonesia;;;5;4011;;;;SEVERE (~>$5 to $24 million);;-7.25;108.05;0
+Gamalama;1840;2;2;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;Tsunami;;2;;;;;;;0.8;127.325;0
+Miyake-jima;1874;7;3;815;Stratovolcano;Historical;Izu Is-Japan;Japan;;;3;1;;;;;;34.08;139.53;0
+Piparo;1911;11;3;140;Mud volcano;Historical;Trinidad;Trinidad;Tsunami;;;;;;;;;10;-61;0
+Semeru;1911;11;8;3676;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.108;112.92;0
+Stromboli;1916;7;3;926;Stratovolcano;Historical;Italy;Italy;Tsunami;;3;;;;;;;38.789;15.213;0
+Dieng Volc Complex;1928;5;13;2565;Complex volcano;Historical;Java;Indonesia;;;2;40;;;;;;-7.2;109.92;0
+Bulusan;1933;12;25;1565;Stratovolcano;Historical;Luzon-Philippines;Philippines;Tsunami;;2;;;;;;;12.77;124.05;0
+Usu;1944;8;26;731;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;2;1;;;;;;42.53;140.83;0
+Ruapehu;1953;12;24;2797;Stratovolcano;Historical;New Zealand;New Zealand;;;;151;;;;;;-39.28;175.57;0
+Kelut;1966;4;26;1731;Stratovolcano;Historical;Java;Indonesia;;;4;215;78;86;;;;-7.93;112.308;0
+Lengai, Ol Doinyo;1966;8;14;2890;Stratovolcano;Historical;Africa-E;Tanzania;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;-2.751;35.902;0
+Narugo;1969;8;26;462;Caldera;Historical;Honshu-Japan;Japan;;;;1;;;;;;38.73;140.73;0
+Hudson, Cerro;1971;8;12;1905;Stratovolcano;Historical;Chile-S;Chile;;;3;5;;;;;;-45.9;-72.97;0
+Iliwerung;1973;12;5;1018;Complex volcano;Historical;Lesser Sunda Is;Indonesia;;;2;2;;;;;;-8.54;123.59;0
+Karkar;1979;3;8;1839;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;2;2;;;;;;-4.649;145.964;0
+Etna;1981;3;17;3350;Stratovolcano;Historical;Italy;Italy;;;2;;;;10;SEVERE (~>$5 to $24 million);;37.734;15.004;0
+Chichon, El;1982;3;29;1150;Tuff cone;Historical;Mexico;Mexico;;Earthquake;5;1879;1755;;3.3;MODERATE (~$1 to $5 million);;17.36;-93.228;0
+Galeras;1993;1;14;4276;Complex volcano;Historical;Colombia;Colombia;;;2;9;;;;;;1.22;-77.37;0
+Etna;2002;8;28;3350;Stratovolcano;Historical;Italy;Italy;;Earthquake;3;;;32;;MODERATE (~$1 to $5 million);;37.734;15.004;0
+Huila;2008;11;20;5365;Stratovolcano;Historical;Colombia;Colombia;;;;10;;;;;;2.92;-76.05;0
+Puyehue;2011;6;4;2236;Stratovolcano;Holocene;Chile-C;Chile;;;4;;;;;MODERATE (~$1 to $5 million);;-40.59;-72.117;0
+Okataina;2013;12;13;1111;Lava dome;Historical;New Zealand;New Zealand;;;;1;;;;;;-38.12;176.5;0
+On-take;2014;9;27;3063;Complex volcano;Historical;Honshu-Japan;Japan;;;3;55;;70;;;;35.9;137.48;0
+Gamalama;2014;12;18;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;;1;;4;;;;0.8;127.325;0
+Mayon;2018;1;13;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;;;;1972;3.564;MODERATE (~$1 to $5 million);;13.257;123.685;0
+Manam;2018;8;25;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;4;;;;;SEVERE (~>$5 to $24 million);164;-4.1;145.061;0
+Arhab, Harra of;200;;;3100;Volcanic field;Historical;Arabia-S;Yemen;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;15.63;44.08;0
+Uwayrid, Harrat;640;;;1900;Volcanic field;Anthropology;Arabia-W;Saudi Arabia;;;2;;;;;;;27.08;37.25;0
+Etna;1169;2;11;3350;Stratovolcano;Historical;Italy;Italy;Tsunami;;;;;;;;;37.734;15.004;0
+Huaynaputina;1600;2;19;4850;Stratovolcano;Historical;Peru;Peru;;Earthquake;6;1500;;;;;;-16.608;-70.85;0
+Grimsvotn;1629;;;1725;Caldera;Historical;Iceland-NE;Iceland;;;2;4;;;;;;64.42;-17.33;0
+Bardarbunga;1717;8;4;2000;Stratovolcano;Historical;Iceland-NE;Iceland;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;64.63;-17.53;0
+Raikoke;1778;;;551;Stratovolcano;Historical;Kuril Is;Russia;;;4;15;;;;;;48.292;153.25;0
+Oshima;1789;;;758;Stratovolcano;Historical;Izu Is-Japan;Japan;;;2;;;;;;;34.73;139.38;0
+Vesuvius;1805;8;11;1281;Complex volcano;Historical;Italy;Italy;;;2;4;;;;;;40.821;14.426;0
+Guntur;1829;;;2249;Complex volcano;Historical;Java;Indonesia;;;2;;;;;;;-7.13;107.83;0
+Peuet Sague;1837;9;;2801;Complex volcano;Historical;Sumatra;Indonesia;Tsunami;Earthquake;;;;;;;;4.914;96.329;0
+Unnamed;1853;10;29;0;Submarine volcano;Historical;Taiwan-E of;Taiwan;Tsunami;;2;;;;;;;24;121.83;0
+Aso;1854;2;;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;3;;;;;;32.88;131.1;0
+Semeru;1860;4;;3676;Stratovolcano;Historical;Java;Indonesia;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.108;112.92;0
+Camiguin;1871;4;30;1332;Stratovolcano;Historical;Mindanao-Philippines;Philippines;Tsunami;Earthquake;2;;;;;SEVERE (~>$5 to $24 million);;9.203;124.673;0
+Askja;1875;3;29;1516;Stratovolcano;Historical;Iceland-NE;Iceland;;;5;;;;;LIMITED (roughly corresponding to less than $1 million);;65.03;-16.75;0
+Tungurahua;1886;1;11;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;4;2;;;;;;-1.467;-78.442;0
+Okataina;1886;6;10;1111;Lava dome;Historical;New Zealand;New Zealand;;;2;153;;;;;;-38.12;176.5;0
+Calbuco;1893;1;7;2003;Stratovolcano;Historical;Chile-S;Chile;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;-41.326;-72.614;0
+Camiguin;1951;12;4;1332;Stratovolcano;Historical;Mindanao-Philippines;Philippines;;;3;500;1500;;;;;9.203;124.673;0
+Myojun Knoll;1953;3;11;360;Submarine volcano;Holocene;Izu Is-Japan;Japan;Tsunami;;2;;;;;;;32.1;139.85;0
+Unzen;1957;7;;1500;Complex volcano;Historical;Kyushu-Japan;Japan;;;;13;;;;;;32.75;130.3;0
+Semeru;1981;3;29;3676;Stratovolcano;Historical;Java;Indonesia;;;3;1;;;;;;-8.108;112.92;0
+Wurlali;1993;1;21;868;Stratovolcano;Historical;Banda Sea;Indonesia;;;;1;;12;;;;-7.125;128.675;0
+Pinatubo;1993;6;26;1486;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;1;4;;;;;;15.13;120.35;0
+Kanlaon;1996;8;10;2435;Stratovolcano;Historical;Philippines-C;Philippines;;;2;3;;18;;;;10.412;123.132;0
+Mayon;2013;5;7;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;;5;;8;;;;13.257;123.685;0
+Etna;2017;3;15;3350;Stratovolcano;Historical;Italy;Italy;;;;;;10;;;;37.734;15.004;0
+Dieng Volc Complex;2017;7;1;2565;Complex volcano;Historical;Java;Indonesia;;;;8;;11;;;;-7.2;109.92;0
+Veniaminof;-1750;;;2507;Stratovolcano;Historical;Alaska Peninsula;United States;;;6;;;;;;;56.17;-159.38;0
+Bona-Churchill;847;;;5005;Stratovolcano;Radiocarbon;Alaska-E;United States;;;6;;;;;;;61.38;-141.75;0
+Ceboruco;930;;;2280;Stratovolcano;Historical;Mexico;Mexico;;;6;;;;;;;21.125;-104.508;0
+Hekla;1158;1;19;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Etna;1329;7;;3350;Stratovolcano;Historical;Italy;Italy;;;1;;;;;;;37.734;15.004;0
+Hekla;1510;10;15;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;;;;;;;63.98;-19.7;0
+Banda Api;1615;3;;640;Caldera;Historical;Banda Sea;Pacific Ocean;;;3;;;;;MODERATE (~$1 to $5 million);;-4.525;129.871;0
+Fuego;1617;;;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;3;;;;;;;14.473;-90.88;0
+Makian;1646;7;19;1357;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;4;;;;;;;0.32;127.4;0
+La Palma;1677;11;22;2426;Stratovolcano;Historical;Canary Is;Spain;;;2;1;;;;;;28.58;-17.83;0
+Hualalai;1784;;;2523;Shield volcano;Historical;Hawaiian Is;United States;;;0;;;;;;;19.692;-155.87;0
+St. Helens;1800;;;2549;Stratovolcano;Historical;US-Washington;United States;;;5;;;;;;;46.2;-122.18;0
+Banda Api;1820;6;11;640;Caldera;Historical;Banda Sea;Pacific Ocean;;;2;;;;;;;-4.525;129.871;0
+Avachinsky;1827;6;27;2741;Stratovolcano;Historical;Kamchatka;Russia;Tsunami;Earthquake;2;;;;;;;53.255;158.83;0
+Etna;1843;11;17;3350;Stratovolcano;Historical;Italy;Italy;;;2;56;;;;;;37.734;15.004;0
+Dieng Volc Complex;1847;12;4;2565;Complex volcano;Historical;Java;Indonesia;;;2;;;;;;;-7.2;109.92;0
+Umboi;1857;4;17;1548;Complex volcano;Holocene;New Guinea-NE of;Papua New Guinea;Tsunami;Earthquake;;;;;;;;-5.589;147.875;0
+Ofu-Olosega;1866;9;12;639;Shield volcano;Historical;Samoa-SW Pacific;United States;Tsunami;;2;;;;;;;-14.175;-169.618;0
+Ruang;1870;8;;725;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;2;;;;;;40;2.28;125.425;0
+Iliwerung;1870;;;1018;Complex volcano;Historical;Lesser Sunda Is;Indonesia;;;3;;;;;;;-8.54;123.59;0
+Purace;1885;5;25;4650;Stratovolcano;Historical;Colombia;Colombia;;Earthquake;3;;;;;MODERATE (~$1 to $5 million);;2.32;-76.4;0
+Tinakula;1897;3;26;851;Stratovolcano;Historical;Santa Cruz Is-SW Pac;Solomon Is.;Tsunami;;2;;;;;;;-10.38;165.8;0
+Soufriere St. Vincent;1902;5;7;1220;Stratovolcano;Historical;W Indies;St. Vincent & the Grenadines;Tsunami;;4;1680;;;;;;13.33;-61.18;0
+Karthala;1903;;;2361;Shield volcano;Historical;Indian O-W;Comoros;;;;17;;;;;;-11.75;43.38;0
+Kusatsu-Shirane;1932;10;1;2176;Stratovolcano;Historical;Honshu-Japan;Japan;;;3;2;;7;;;;36.62;138.55;0
+Kavachi;1951;;;-20;Submarine volcano;Historical;Solomon Is-SW Pacifi;Solomon Is.;Tsunami;;2;;;;;;;-9.02;157.95;0
+Kusatsu-Shirane;1971;12;27;2176;Stratovolcano;Historical;Honshu-Japan;Japan;;;;6;;;;;;36.62;138.55;0
+Lokon-Empung;1991;10;24;1580;Stratovolcano;Historical;Sulawesi-Indonesia;Indonesia;;;1;1;;;;;;1.358;124.792;0
+Pacaya;1995;4;7;2552;Complex volcano;Historical;Guatemala;Guatemala;;;3;1;;;;LIMITED (roughly corresponding to less than $1 million);1;14.381;-90.601;0
+Kilauea;1998;4;28;1222;Shield volcano;Historical;Hawaiian Is;United States;;;;1;;;;;;19.425;-155.292;0
+Fuego;1999;5;21;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;2;;;;;;;14.473;-90.88;0
+Gamalama;2011;12;27;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;3;4;;;;;;0.8;127.325;0
+Sinabung;2017;12;27;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;;;;;;MODERATE (~$1 to $5 million);;3.17;98.392;0
+Pinatubo;-3550;;;1486;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;6;;;;;;;15.13;120.35;0
+Santorini;1050;;;329;Shield volcano;Historical;Greece;Greece;Tsunami;;;;;;;;;36.404;25.396;0
+Katla;1177;;;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Ruiz;1595;3;12;5321;Stratovolcano;Historical;Colombia;Colombia;;;4;636;;;;;;4.895;-75.322;0
+Banda Api;1598;;;640;Caldera;Historical;Banda Sea;Pacific Ocean;;;3;;;;;;;-4.525;129.871;0
+Raung;1638;;;3332;Stratovolcano;Historical;Java;Indonesia;;;4;1001;;;;;;-8.125;114.042;0
+San Salvador;1659;9;30;1893;Stratovolcano;Historical;El Salvador;El Salvador;;Earthquake;3;;;;;;;13.736;-89.286;0
+Grimsvotn;1684;12;;1725;Caldera;Historical;Iceland-NE;Iceland;;;2;1;;;;;;64.42;-17.33;0
+Hekla;1693;2;13;1491;Stratovolcano;Historical;Iceland-S;Iceland;Tsunami;;4;;;;;;;63.98;-19.7;0
+Banda Api;1694;11;20;640;Caldera;Historical;Banda Sea;Pacific Ocean;;;3;;;;;;;-4.525;129.871;0
+Vesuvius;1794;6;15;1281;Complex volcano;Historical;Italy;Italy;;;3;400;;;;SEVERE (~>$5 to $24 million);;40.821;14.426;0
+San Jorge;1800;6;24;1053;Fissure vent;Historical;Azores;Portugal;;;1;9;;;;;;38.65;-28.08;0
+Aso;1816;7;5;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;1;;;;;;32.88;131.1;0
+Ijen;1817;1;24;2799;Stratovolcano;Historical;Java;Indonesia;;;2;;;;;;90;-8.058;114.242;0
+Balbi;1825;;;2715;Stratovolcano;Holocene;Bougainville-SW Paci;Papua New Guinea;;;;;;;;;;-5.83;154.98;0
+E-san;1846;11;18;618;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;1;;;;;;;41.8;141.17;0
+Mayon;1875;;;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;;1500;;;;;;13.257;123.685;0
+Banua Wuhu;1889;9;6;-5;Submarine volcano;Historical;Sangihe Is-Indonesia;Indonesia;Tsunami;Earthquake;2;;;;;;;3.138;125.491;0
+Novarupta;1912;9;6;841;Caldera;Historical;Alaska Peninsula;United States;;;6;2;;;;;;58.27;-155.16;0
+Hakone;1953;7;26;1438;Complex volcano;Radiocarbon;Honshu-Japan;Japan;;;;10;;;;;;35.22;139.02;0
+Daisetsu;1961;6;18;2290;Stratovolcano;Tephrochronology;Hokkaido-Japan;Japan;;;;2;;;;;;43.68;142.88;0
+Dieng Volc Complex;1964;12;13;2565;Complex volcano;Historical;Java;Indonesia;;;1;114;;;;;;-7.2;109.92;0
+Kick-'em-Jenny;1965;10;24;-177;Submarine volcano;Historical;W Indies;Netherlands;Tsunami;;0;;;;;;;12.3;-61.63;0
+Tinakula;1971;9;6;851;Stratovolcano;Historical;Santa Cruz Is-SW Pac;Solomon Is.;Tsunami;;2;;;;;;;-10.38;165.8;0
+Semeru;1976;8;31;3676;Stratovolcano;Historical;Java;Indonesia;;;2;119;;;;;;-8.108;112.92;0
+Karangetang [Api Siau];1976;9;15;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;2;1;;1;;;24;2.78;125.48;0
+Santa Maria;1978;9;2;3772;Stratovolcano;Historical;Guatemala;Guatemala;;;3;1;;;;;;14.756;-91.552;0
+Kliuchevskoi;1983;3;8;4835;Stratovolcano;Historical;Kamchatka;Russia;;;2;1;;;;;;56.057;160.638;0
+Oshima;1986;11;15;758;Stratovolcano;Historical;Izu Is-Japan;Japan;;;3;1;;;;;;34.73;139.38;0
+Karangetang [Api Siau];1992;1;21;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;2;2;;;;;;2.78;125.48;0
+Karangetang [Api Siau];2002;1;3;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;2.78;125.48;0
+Paluweh;2013;8;10;875;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;3;5;;;;;;-8.32;121.708;0
+Sinabung;2013;9;15;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;2;;;;;MODERATE (~$1 to $5 million);;3.17;98.392;0
+Sinabung;2017;4;13;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;3.17;98.392;0
+Krakatau;2018;12;22;813;Caldera;Historical;Indonesia;Indonesia;Tsunami;;1;;;;;;;-6.102;105.423;0
+Ulawun;2019;6;26;2334;Stratovolcano;Historical;New Britain-SW Pac;Papua New Guinea;;;;;;2;14;SEVERE (~>$5 to $24 million);;-5.05;151.33;0
+Macauley Island;-4360;;;238;Caldera;Holocene;Kermadec Is;New Zealand;;;6;;;;;;;-30.2;-178.47;0
+Pago;-4000;;;742;Caldera;Historical;New Britain-SW Pac;Papua New Guinea;;;6;;;;;LIMITED (roughly corresponding to less than $1 million);;-5.58;150.52;0
+Apoyeque;-50;;;518;Pyroclastic shield;Radiocarbon;Nicaragua;Nicaragua;;;6;;;;;;;12.242;-86.342;0
+Santorini;46;;;329;Shield volcano;Historical;Greece;Greece;Tsunami;;3;;;;;;;36.404;25.396;0
+Arhab, Harra of;500;;;3100;Volcanic field;Historical;Arabia-S;Yemen;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;15.63;44.08;0
+Vesuvius;787;;;1281;Complex volcano;Historical;Italy;Italy;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;40.821;14.426;0
+Etna;1536;3;23;3350;Stratovolcano;Historical;Italy;Italy;;;3;1;;;;;;37.734;15.004;0
+Vesuvius;1690;2;3;1281;Complex volcano;Historical;Italy;Italy;Tsunami;;;;;;;;;40.821;14.426;0
+Bardarbunga;1726;2;1;2000;Stratovolcano;Historical;Iceland-NE;Iceland;;;1;;;;;LIMITED (roughly corresponding to less than $1 million);;64.63;-17.53;0
+Raung;1730;;;3332;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;;;-8.125;114.042;0
+Cotopaxi;1742;6;15;5911;Stratovolcano;Historical;Ecuador;Ecuador;;;3;;;;;SEVERE (~>$5 to $24 million);;-0.677;-78.436;0
+Taal;1749;8;11;400;Stratovolcano;Historical;Luzon-Philippines;Philippines;Tsunami;Earthquake;3;;;;;LIMITED (roughly corresponding to less than $1 million);;14.002;120.993;0
+Kelut;1848;5;16;1731;Stratovolcano;Historical;Java;Indonesia;;;2;21;;;;;800;-7.93;112.308;0
+Dubbi;1861;5;7;1625;Stratovolcano;Historical;Africa-NE;Eritrea;;Earthquake;3;106;;;;SEVERE (~>$5 to $24 million);;13.58;41.808;0
+Tofua;1892;8;30;512;Caldera;Historical;Tonga-SW Pacific;Tonga;Tsunami;;2;;;;;;;-19.75;-175.07;0
+Mayon;1897;5;23;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;3;350;;;;;;13.257;123.685;0
+Pelee;1902;5;5;1397;Stratovolcano;Historical;W Indies;Martinique;Tsunami;;;23;;;;;;14.82;-61.17;0
+Nyamuragira;1912;12;3;3058;Shield volcano;Historical;Africa-C;Congo, DRC;;;3;20;;;;;;-1.408;29.2;0
+Popocatepetl;1919;2;19;5426;Stratovolcano;Historical;Mexico;Mexico;;;1;;;;;;;19.023;-98.622;0
+Banua Wuhu;1919;4;3;-5;Submarine volcano;Historical;Sangihe Is-Indonesia;Indonesia;Tsunami;;;;;;;LIMITED (roughly corresponding to less than $1 million);;3.138;125.491;0
+Cendres, Ile des;1923;3;2;-20;Submarine volcanoes;Historical;SE Asia;Vietnam;Tsunami;Earthquake;2;;;;;;;10.158;109.014;0
+Etna;1929;8;2;3350;Stratovolcano;Historical;Italy;Italy;;;2;2;;;;;;37.734;15.004;0
+Tori-shima;1939;8;17;403;Stratovolcano;Historical;Izu Is-Japan;Japan;;;2;2;;;;;;30.48;140.32;0
+Karangetang [Api Siau];1940;6;20;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;2;1;;2;;;;2.78;125.48;0
+Asama;1947;7;6;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;11;;;;;;36.4;138.53;0
+Oshima;1957;8;;758;Stratovolcano;Historical;Izu Is-Japan;Japan;;;2;1;;53;;;;34.73;139.38;0
+Aso;1979;9;6;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;3;;11;;;;32.88;131.1;0
+Hood;1980;12;25;3426;Stratovolcano;Historical;US-Oregon;United States;;;;1;;;;;;45.374;-121.694;0
+Kirishima;1989;8;26;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;;2;;;;;;31.93;130.87;0
+Aso;1994;5;29;1592;Caldera;Historical;Kyushu-Japan;Japan;;;1;1;;;;;;32.88;131.1;0
+Etna;2001;5;14;3350;Stratovolcano;Historical;Italy;Italy;;;3;1;;;;LIMITED (roughly corresponding to less than $1 million);;37.734;15.004;0
+Bulusan;2011;2;23;1565;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;1;;;;;;12.77;124.05;0
+Kelut;2014;2;13;1731;Stratovolcano;Historical;Java;Indonesia;;;;7;;;;SEVERE (~>$5 to $24 million);4098;-7.93;112.308;0
+Katla;920;;;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Hekla;1104;10;15;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;5;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Krisuvik;1151;;;379;Crater rows;Historical;Iceland-SW;Iceland;;;1;;;;;LIMITED (roughly corresponding to less than $1 million);;63.93;-22.1;0
+Hekla;1206;12;4;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Etna;1329;6;28;3350;Stratovolcano;Historical;Italy;Italy;Tsunami;Earthquake;3;;;;;;;37.734;15.004;0
+Aso;1485;1;;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;1;;;;;;32.88;131.1;0
+Dukono;1550;11;;1185;Complex volcano;Historical;Halmahera-Indonesia;Indonesia;;;3;;;;;;;1.68;127.88;0
+Colima;1576;;;3850;Stratovolcano;Historical;Mexico;Mexico;;;3;;;;;;;19.514;-103.62;0
+Katla;1580;8;11;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;;;;;;;63.63;-19.05;0
+Asama;1598;5;13;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;800;;;;;;36.4;138.53;0
+Lanzarote;1730;9;1;670;Fissure vent;Historical;Canary Is;Spain;;;2;;;;;;;29.03;-13.63;0
+Papandayan;1772;8;12;2665;Stratovolcano;Historical;Java;Indonesia;;;3;2957;;;;;;-7.32;107.73;0
+Sakura-jima;1781;4;11;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;Tsunami;;4;23;;;;;;31.58;130.67;0
+Aso;1826;10;;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;;;;;;;32.88;131.1;0
+Kilauea;1840;5;30;1222;Shield volcano;Historical;Hawaiian Is;United States;Tsunami;;0;;;;;LIMITED (roughly corresponding to less than $1 million);;19.425;-155.292;0
+Savo;1840;;;510;Stratovolcano;Historical;Solomon Is-SW Pacifi;Solomon Is.;;;3;;;;;;;-9.13;159.82;0
+Rabaul;1850;;;688;Pyroclastic shield;Historical;New Britain-SW Pac;Papua New Guinea;;;2;;;;;;;-4.271;152.203;0
+Tate-yama;1858;7;3;2621;Stratovolcano;Historical;Honshu-Japan;Japan;;;;;;;;;;36.57;137.6;0
+Karthala;1883;3;;2361;Shield volcano;Historical;Indian O-W;Comoros;;;2;;;;;SEVERE (~>$5 to $24 million);;-11.75;43.38;0
+Mayon;1887;3;9;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;3;15;;;;LIMITED (roughly corresponding to less than $1 million);;13.257;123.685;0
+Makian;1890;6;29;1357;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;2;;;;;SEVERE (~>$5 to $24 million);;0.32;127.4;0
+Pelee;1902;8;30;1397;Stratovolcano;Historical;W Indies;Martinique;Tsunami;;4;1500;;;;;;14.82;-61.17;0
+Santa Maria;1902;10;25;3772;Stratovolcano;Historical;Guatemala;Guatemala;;;6;2500;;;;MODERATE (~$1 to $5 million);;14.756;-91.552;0
+Asama;1936;2;;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;3;2;;;;;;36.4;138.53;0
+Llaima;1937;2;9;3125;Stratovolcano;Historical;Chile-C;Chile;;;2;3;;;;LIMITED (roughly corresponding to less than $1 million);;-38.692;-71.729;0
+Azul, Cerro;1943;4;13;1690;Shield volcano;Historical;Galapagos;Ecuador;;;3;1;;;;;;-0.9;-91.42;0
+Lamington;1951;1;21;1680;Stratovolcano;Historical;New Guinea;Papua New Guinea;;;4;2942;;;;;;-8.95;148.15;0
+Campi Flegrei;1970;3;2;458;Caldera;Historical;Italy;Italy;;;;3;;;;LIMITED (roughly corresponding to less than $1 million);;40.827;14.139;0
+Semeru;1981;5;14;3676;Stratovolcano;Historical;Java;Indonesia;;;3;372;120;152;;;;-8.108;112.92;0
+Iliwerung;1983;8;17;1018;Complex volcano;Historical;Lesser Sunda Is;Indonesia;Tsunami;;1;;;;;;;-8.54;123.59;0
+Etna;1985;12;19;3350;Stratovolcano;Historical;Italy;Italy;;;1;1;;;;;;37.734;15.004;0
+Sabancaya;1990;5;29;5967;Stratovolcano;Historical;Peru;Peru;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;-15.78;-71.85;0
+Nyiragongo;1990;11;21;3470;Stratovolcano;Historical;Africa-C;Congo, DRC;;;;1;;;;;;-1.52;29.25;0
+Semeru;1997;9;2;3676;Stratovolcano;Historical;Java;Indonesia;;;3;2;;;;;;-8.108;112.92;0
+Soufriere Hills;1999;1;20;915;Stratovolcano;Historical;W Indies;Montserrat;Tsunami;;3;;;;;;;16.72;-62.18;0
+Merapi;2000;11;;2947;Stratovolcano;Historical;Java;Indonesia;;;2;1;;;;;;-7.542;110.442;0
+St. Helens;-1860;;;2549;Stratovolcano;Historical;US-Washington;United States;;;6;;;;;;;46.2;-122.18;0
+Taupo;230;;;760;Caldera;Radiocarbon;New Zealand;New Zealand;;;6;;;;;;;-38.82;176;0
+Etna;1169;2;4;3350;Stratovolcano;Historical;Italy;Italy;Tsunami;Earthquake;;;;;;;;37.734;15.004;0
+Kirishima;1566;10;31;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;3;;;;;;;31.93;130.87;0
+Hekla;1597;1;3;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Tungurahua;1640;;;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;3;5000;;;;;;-1.467;-78.442;0
+Santorini;1650;9;26;329;Shield volcano;Historical;Greece;Greece;Tsunami;;4;120;;;;;;36.404;25.396;0
+Katla;1660;11;3;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Merapi;1672;8;4;2947;Stratovolcano;Historical;Java;Indonesia;;;3;3000;;;;;;-7.542;110.442;0
+Zukur;1679;9;21;624;Shield volcano;Holocene;Red Sea;Yemen;;Earthquake;;;;;;;;14.02;42.75;0
+Kirishima;1717;2;7;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;3;1;;30;;;;31.93;130.87;0
+Oshima-Oshima;1741;8;23;737;Stratovolcano;Historical;Hokkaido-Japan;Japan;Tsunami;;4;;;;;;;41.5;139.37;0
+Grimsvotn;1753;10;15;1725;Caldera;Historical;Iceland-NE;Iceland;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;64.42;-17.33;0
+Sakura-jima;1780;9;9;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;Tsunami;;4;;;;;;;31.58;130.67;0
+Raung;1817;;;3332;Stratovolcano;Historical;Java;Indonesia;;;4;;;;;;;-8.125;114.042;0
+Kaba;1833;11;24;1952;Stratovolcano;Historical;Sumatra;Indonesia;;;2;126;;;;;;-3.52;102.62;0
+Kuchinoerabu-jima;1841;4;;649;Stratovolcano;Historical;Ryukyu Is;Japan;;;2;;;;;MODERATE (~$1 to $5 million);;30.43;130.22;0
+Liamuiga;1843;2;8;1156;Stratovolcano;Radiocarbon;W Indies;St. Kitts & Nevis;Tsunami;;0;;;;;;;17.37;-62.8;0
+Ruang;1871;3;3;725;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;Tsunami;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;2.28;125.425;0
+Manam;1899;;;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;2;2;;;;;;-4.1;145.061;0
+Kirishima;1900;2;16;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;2;2;;3;;;;31.93;130.87;0
+Mayon;1928;1;;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;3;;;;;;;13.257;123.685;0
+Rabaul;1937;5;29;688;Pyroclastic shield;Historical;New Britain-SW Pac;Papua New Guinea;Tsunami;Earthquake;4;507;;;;LIMITED (roughly corresponding to less than $1 million);;-4.271;152.203;0
+Sakura-jima;1946;1;;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;2;1;;;;;;31.58;130.67;0
+St. Andrew Strait;1953;6;27;270;Complex volcano;Historical;Admiralty Is-SW Paci;Papua New Guinea;Tsunami;;0;;;;;;;-2.38;147.35;0
+Sangay;1976;8;12;5230;Stratovolcano;Historical;Ecuador;Ecuador;;;3;2;;4;;;;-2.03;-78.33;0
+Kliuchevskoi;1977;8;2;4835;Stratovolcano;Historical;Kamchatka;Russia;;;3;1;;;;;;56.057;160.638;0
+Mayon;1981;6;30;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;;200;;;;;;13.257;123.685;0
+Karangetang [Api Siau];1992;5;11;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;1;6;;1;;;;2.78;125.48;0
+Rabaul;1994;9;19;688;Pyroclastic shield;Historical;New Britain-SW Pac;Papua New Guinea;Tsunami;;3;4;;;86;EXTREME (~$25 million or more);;-4.271;152.203;0
+Merapi;1997;1;14;2947;Stratovolcano;Historical;Java;Indonesia;;;2;6;;;;;;-7.542;110.442;0
+Manam;2005;1;27;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;4;1;;14;;;;-4.1;145.061;0
+Raoul Island;2006;3;17;516;Stratovolcano;Historical;Kermadec Is;New Zealand;;;;1;;;;;;-29.27;-177.92;0
+Fogo;2014;11;23;2829;Stratovolcano;Historical;Cape Verde Is;Cape Verde;;;;;;;;MODERATE (~$1 to $5 million);230;14.95;-24.35;0
+Manam;2015;7;31;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;2;;;2;;LIMITED (roughly corresponding to less than $1 million);;-4.1;145.061;0
+Black Peak;-1900;;;1032;Stratovolcano;Radiocarbon;Alaska Peninsula;United States;;;6;;;;;;;56.53;-158.8;0
+Bardarbunga;1477;2;;2000;Stratovolcano;Historical;Iceland-NE;Iceland;;;6;;;;;LIMITED (roughly corresponding to less than $1 million);;64.63;-17.53;0
+Raung;1597;;;3332;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;;;-8.125;114.042;0
+Gamkonora;1673;5;20;1635;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;Tsunami;;5;;;;;LIMITED (roughly corresponding to less than $1 million);;1.375;127.52;0
+Taal;1754;5;13;400;Stratovolcano;Historical;Luzon-Philippines;Philippines;Tsunami;Earthquake;4;12;;;;EXTREME (~$25 million or more);;14.002;120.993;0
+Cotopaxi;1768;4;4;5911;Stratovolcano;Historical;Ecuador;Ecuador;;;4;;;;;SEVERE (~>$5 to $24 million);;-0.677;-78.436;0
+Unzen;1792;5;21;1500;Complex volcano;Historical;Kyushu-Japan;Japan;Tsunami;Earthquake;2;;;;;;;32.75;130.3;0
+Mayon;1814;2;1;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;4;1200;;;;SEVERE (~>$5 to $24 million);;13.257;123.685;0
+Tambora;1815;4;10;2850;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;Tsunami;;7;11000;;;;EXTREME (~$25 million or more);;-8.25;118;0
+Colima;1818;2;5;3850;Stratovolcano;Historical;Mexico;Mexico;;;4;;;;;;;19.514;-103.62;0
+Alaid;1854;6;27;2339;Stratovolcano;Historical;Kuril Is;Russia;Tsunami;;3;;;;;;;50.858;155.55;0
+Yasur;1863;8;17;361;Stratovolcano;Historical;Vanuatu-SW Pacific;Vanuatu;Tsunami;Earthquake;;;;;;;;-19.52;169.425;0
+Merapi;1872;4;15;2947;Stratovolcano;Historical;Java;Indonesia;;;4;30;;;;;50;-7.542;110.442;0
+Krakatau;1884;2;;813;Caldera;Historical;Indonesia;Indonesia;Tsunami;;;;;;;;;-6.102;105.423;0
+Ritter Island;1888;3;13;140;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;Tsunami;;3;;;;;;;-5.52;148.121;0
+Bandai;1888;7;15;1819;Stratovolcano;Historical;Honshu-Japan;Japan;;;4;461;;70;;MODERATE (~$1 to $5 million);;37.6;140.08;0
+Semeru;1913;6;23;3676;Stratovolcano;Historical;Java;Indonesia;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.108;112.92;0
+Tungurahua;1916;3;3;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;4;;;;;;;-1.467;-78.442;0
+Merapi;1920;7;25;2947;Stratovolcano;Historical;Java;Indonesia;;;3;33;;;;;;-7.542;110.442;0
+Semeru;1946;10;29;3676;Stratovolcano;Historical;Java;Indonesia;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.108;112.92;0
+Iliwerung;1948;4;7;1018;Complex volcano;Historical;Lesser Sunda Is;Indonesia;;;2;;;;;MODERATE (~$1 to $5 million);;-8.54;123.59;0
+Camiguin;1950;9;15;1332;Stratovolcano;Historical;Mindanao-Philippines;Philippines;;;3;68;;;;;;9.203;124.673;0
+Asama;1950;9;23;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;1;;1;;;;36.4;138.53;0
+Cosiguina;1951;8;3;872;Stratovolcano;Historical;Nicaragua;Nicaragua;Tsunami;Earthquake;;;;;;;;12.98;-87.57;0
+Bezymianny;1956;3;30;2882;Stratovolcano;Historical;Kamchatka;Russia;Tsunami;;5;;;;;;;55.978;160.587;0
+Kuwae;1958;10;7;-2;Caldera;Historical;Vanuatu-SW Pacific;Vanuatu;Tsunami;;2;;;;;;;-16.829;168.536;0
+Semeru;1967;8;31;3676;Stratovolcano;Historical;Java;Indonesia;;;3;3;;;;LIMITED (roughly corresponding to less than $1 million);;-8.108;112.92;0
+Sakura-jima;1974;8;9;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;3;5;;;;;;31.58;130.67;0
+Dieng Volc Complex;1979;2;20;2565;Complex volcano;Historical;Java;Indonesia;;;1;149;;;;;;-7.2;109.92;0
+Mayon;1984;9;9;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;3;1;;;;;;13.257;123.685;0
+Banda Api;1988;5;9;640;Caldera;Historical;Banda Sea;Pacific Ocean;;;3;4;;;;;;-4.525;129.871;0
+Krakatau;1993;6;13;813;Caldera;Historical;Indonesia;Indonesia;;;1;1;;5;;;;-6.102;105.423;0
+Karymsky;1996;1;2;1536;Stratovolcano;Historical;Kamchatka;Russia;Tsunami;;2;;;;;;;54.05;159.43;0
+Soufriere Hills;1997;12;26;915;Stratovolcano;Historical;W Indies;Montserrat;Tsunami;;;;;;;;;16.72;-62.18;0
+Bulusan;2006;6;7;1565;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;1;;;;;;12.77;124.05;0
+Manam;2007;3;;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;4;4;;1;;;;-4.1;145.061;0
+Tair, Jebel at;2007;9;30;244;Stratovolcano;Historical;Red Sea;Yemen;;;;7;;1;;;;15.7;41.742;0
+Kirishima;2011;1;28;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;31.93;130.87;0
+Tolbachik;2012;12;12;3682;Shield volcano;Historical;Kamchatka;Russia;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;55.83;160.33;0
+Kilauea;2018;4;28;1222;Shield volcano;Historical;Hawaiian Is;United States;Tsunami;Earthquake;1;;;1;370;EXTREME (~$25 million or more);716;19.425;-155.292;0
+Ijen;2020;5;29;2799;Stratovolcano;Historical;Java;Indonesia;Tsunami;Earthquake;;1;;;;;;-8.058;114.242;0
+Taupo;-1460;;;760;Caldera;Radiocarbon;New Zealand;New Zealand;;;6;;;;;;;-38.82;176;0
+Changbaishan;1000;;;2744;Stratovolcano;Historical;China-E;North Korea;;;7;;;;;;;41.98;128.08;0
+Oraefajokull;1727;8;3;2119;Stratovolcano;Historical;Iceland-SE;Iceland;;;4;3;;;;;;64;-16.65;0
+Kelut;1826;10;11;1731;Stratovolcano;Historical;Java;Indonesia;;;3;;;65;;SEVERE (~>$5 to $24 million);;-7.93;112.308;0
+Mauna Loa;1868;4;3;4170;Shield volcano;Historical;Hawaiian Is;United States;Tsunami;Earthquake;2;;;;;LIMITED (roughly corresponding to less than $1 million);37;19.475;-155.608;0
+Lewotobi;1869;7;7;1703;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;2;2;;;;;;-8.53;122.775;0
+Dakataua;1895;;;400;Caldera;Anthropology;New Britain-SW Pac;Papua New Guinea;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-5.056;150.108;0
+Adatara;1900;7;17;1718;Stratovolcano;Historical;Honshu-Japan;Japan;;;2;72;;10;;;;37.62;140.28;0
+Tullu Moje;1900;;;2349;Pumice cone;Anthropology;Africa-NE;Ethiopia;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;8.158;39.13;0
+Merapi;1902;12;;2947;Stratovolcano;Historical;Java;Indonesia;;;2;16;;45;;;;-7.542;110.442;0
+Lewotobi;1907;9;28;1703;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;2;1;;;;;;-8.53;122.775;0
+Awu;1913;3;14;1320;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;Tsunami;Earthquake;2;;;;;;;3.67;125.5;0
+Asama;1930;8;20;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;3;6;;;;;;36.4;138.53;0
+Merapi;1932;2;;2947;Stratovolcano;Historical;Java;Indonesia;;;;;;;;;;-7.542;110.442;0
+Nyamuragira;1938;1;28;3058;Shield volcano;Historical;Africa-C;Congo, DRC;Tsunami;;1;;;;;LIMITED (roughly corresponding to less than $1 million);;-1.408;29.2;0
+Mayon;1938;6;5;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;;;;;;;13.257;123.685;0
+Camiguin;1954;;;1332;Stratovolcano;Historical;Mindanao-Philippines;Philippines;;;;2;;;;;;9.203;124.673;0
+Mahawu;1958;7;12;1324;Stratovolcano;Historical;Sulawesi-Indonesia;Indonesia;;;2;1;;10;;;;1.358;124.858;0
+Tate-yama;1961;4;23;2621;Stratovolcano;Historical;Honshu-Japan;Japan;;;;1;;;;;;36.57;137.6;0
+Paluweh;1964;1;1;875;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;2;1;;3;;;;-8.32;121.708;0
+Spurr;1992;9;17;3374;Stratovolcano;Historical;Alaska-SW;United States;;;4;1;;;2;MODERATE (~$1 to $5 million);;61.3;-152.25;0
+Parker;1995;9;6;1824;Stratovolcano;Historical;Mindanao-Philippines;Philippines;;;;60;;;;MODERATE (~$1 to $5 million);300;6.12;124.892;0
+Kelut;1998;7;;1731;Stratovolcano;Historical;Java;Indonesia;;;;10;;;;;;-7.93;112.308;0
+Arenal;2000;8;23;1657;Stratovolcano;Historical;Costa Rica;Costa Rica;;;3;2;;1;;;;10.463;-84.703;0
+Pacaya;2010;5;27;2552;Complex volcano;Historical;Guatemala;Guatemala;;;1;1;3;;;LIMITED (roughly corresponding to less than $1 million);3;14.381;-90.601;0
+Merapi;2010;10;26;2947;Stratovolcano;Historical;Java;Indonesia;;;;367;;277;600;EXTREME (~$25 million or more);;-7.542;110.442;0
+Lokon-Empung;2011;7;17;1580;Stratovolcano;Historical;Sulawesi-Indonesia;Indonesia;;;;1;;;;;;1.358;124.792;0
+Merapi;2013;2;12;2947;Stratovolcano;Historical;Java;Indonesia;;;;1;;1;;LIMITED (roughly corresponding to less than $1 million);;-7.542;110.442;0
+Rinjani;2016;9;27;3726;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;;;44;;;;;-8.42;116.47;0
+Kilauea;2018;7;16;1222;Shield volcano;Historical;Hawaiian Is;United States;;;;;;23;1;LIMITED (roughly corresponding to less than $1 million);;19.425;-155.292;0
+Ambrym;50;;;1334;Pyroclastic shield;Historical;Vanuatu-SW Pacific;Vanuatu;;;6;;;;;;;-16.25;168.12;0
+San Salvador;590;;;1893;Stratovolcano;Historical;El Salvador;El Salvador;;;;;;;;;;13.736;-89.286;0
+Ischia;1302;;;789;Complex volcano;Historical;Italy;Italy;;;;;;;;;;40.73;13.897;0
+Savo;1568;;;510;Stratovolcano;Historical;Solomon Is-SW Pacifi;Solomon Is.;;;3;1001;;;;;;-9.13;159.82;0
+Mombacho;1570;;;1344;Stratovolcano;Holocene;Nicaragua;Nicaragua;;;;400;;;;;;11.826;-85.968;0
+Usu;1663;8;16;731;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;5;5;;;;;;42.53;140.83;0
+Etna;1693;1;9;3350;Stratovolcano;Historical;Italy;Italy;;Earthquake;;;;;;;;37.734;15.004;0
+Katla;1755;10;17;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;2;;;;;;63.63;-19.05;0
+Lamongan;1843;8;;1651;Stratovolcano;Historical;Java;Indonesia;;;2;4;;;;;;-8;113.342;0
+Vesuvius;1872;4;24;1281;Complex volcano;Historical;Italy;Italy;;;3;9;;11;;;;40.821;14.426;0
+Okmok;1878;8;29;1073;Shield volcano;Historical;Aleutian Is;United States;Tsunami;Earthquake;2;;;;;;;53.42;-168.13;0
+Ambrym;1913;12;6;1334;Pyroclastic shield;Historical;Vanuatu-SW Pacific;Vanuatu;;;3;21;;;;SEVERE (~>$5 to $24 million);;-16.25;168.12;0
+Purace;1949;5;26;4650;Stratovolcano;Historical;Colombia;Colombia;;;2;17;;;;;;2.32;-76.4;0
+Aso;1957;10;;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;12;;;;;;32.88;131.1;0
+Irazu;1963;12;10;3432;Stratovolcano;Historical;Costa Rica;Costa Rica;;;3;40;;;;MODERATE (~$1 to $5 million);400;9.979;-83.852;0
+Fuego;1971;9;14;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;3;10;;;;;;14.473;-90.88;0
+Negro, Cerro;1992;4;10;728;Cinder cone;Historical;Nicaragua;Nicaragua;;;3;11;;50;3;MODERATE (~$1 to $5 million);;12.506;-86.702;0
+Hakkoda Group;1997;7;12;1585;Stratovolcano;Holocene;Honshu-Japan;Japan;;;;3;;;;;;40.65;140.88;0
+Adatara;1997;9;15;1718;Stratovolcano;Historical;Honshu-Japan;Japan;;;;4;;;;;;37.62;140.28;0
+Aso;1997;11;23;1592;Caldera;Historical;Kyushu-Japan;Japan;;;;2;;;;;;32.88;131.1;0
+Egon;2004;1;29;1703;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;1;1;;;;;;-8.67;122.45;0
+Paluweh;2013;2;;875;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.32;121.708;0
+Sakura-jima;2013;9;4;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;31.58;130.67;0
+Karangetang [Api Siau];2015;5;7;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;2.78;125.48;0
+Taal;-3580;;;400;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;6;;;;;;;14.002;120.993;0
+Long Island;-2040;;;1280;Complex volcano;Historical;New Guinea-NE of;Papua New Guinea;;;6;;;;;;;-5.358;147.12;0
+Dakataua;653;;;400;Caldera;Anthropology;New Britain-SW Pac;Papua New Guinea;;;6;;;;;;;-5.056;150.108;0
+Rabaul;683;;;688;Pyroclastic shield;Historical;New Britain-SW Pac;Papua New Guinea;;;6;;;;;LIMITED (roughly corresponding to less than $1 million);;-4.271;152.203;0
+Katla;950;;;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+San Jorge;1580;5;1;1053;Fissure vent;Historical;Azores;Portugal;;;3;10;;;;;;38.65;-28.08;0
+Fuego;1581;12;26;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;14.473;-90.88;0
+Gamalama;1608;7;18;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;Tsunami;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;0.8;127.325;0
+Katla;1625;9;2;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;5;;;;;;;63.63;-19.05;0
+Teon;1660;2;;655;Stratovolcano;Historical;Banda Sea;Pacific Ocean;;;4;3;;;;;;-6.92;129.125;0
+Gamalama;1773;2;2;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;2;;;;;;;0.8;127.325;0
+Vesuvius;1779;8;8;1281;Complex volcano;Historical;Italy;Italy;;;2;;;;;;;40.821;14.426;0
+Chokai;1801;7;;2237;Stratovolcano;Historical;Honshu-Japan;Japan;;;2;8;;;;;;39.08;140.03;0
+Shikotsu;1804;;;1320;Caldera;Historical;Hokkaido-Japan;Japan;;;3;;;;;;;42.7;141.33;0
+Westdahl;1820;3;1;1654;Stratovolcano;Historical;Aleutian Is;United States;Tsunami;Earthquake;2;;;;;;;54.52;-164.65;0
+Hekla;1845;9;2;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Zao;1867;10;21;1841;Complex volcano;Historical;Honshu-Japan;Japan;;;2;3;;;;;;38.15;140.45;0
+Aoba;1870;;;1496;Shield volcano;Historical;Vanuatu-SW Pacific;Vanuatu;;;2;;;;;SEVERE (~>$5 to $24 million);;-15.4;167.83;0
+Taupo;1910;3;20;760;Caldera;Radiocarbon;New Zealand;New Zealand;;;;1;;;;;;-38.82;176;0
+Hakone;1952;3;27;1438;Complex volcano;Radiocarbon;Honshu-Japan;Japan;;;;1;;;;;;35.22;139.02;0
+Aso;1953;4;27;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;6;;;;;;32.88;131.1;0
+Irazu;1963;3;17;3432;Stratovolcano;Historical;Costa Rica;Costa Rica;;;3;15;;;;;;9.979;-83.852;0
+Ritter Island;1974;10;17;140;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;Tsunami;;1;;;;;;;-5.52;148.121;0
+Merapi;1986;10;15;2947;Stratovolcano;Historical;Java;Indonesia;;;2;1;;;;;;-7.542;110.442;0
+Pacaya;1987;1;25;2552;Complex volcano;Historical;Guatemala;Guatemala;;;3;;;15;;LIMITED (roughly corresponding to less than $1 million);63;14.381;-90.601;0
+Rabaul;1990;6;24;688;Pyroclastic shield;Historical;New Britain-SW Pac;Papua New Guinea;;;;6;;;;;;-4.271;152.203;0
+Pinatubo;1993;10;4;1486;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;;14;;;;;;15.13;120.35;0
+Miyake-jima;2000;6;27;815;Stratovolcano;Historical;Izu Is-Japan;Japan;Tsunami;Earthquake;2;;;;;LIMITED (roughly corresponding to less than $1 million);;34.08;139.53;0
+Mayon;2006;11;30;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;1;1266;;;;LIMITED (roughly corresponding to less than $1 million);;13.257;123.685;0
+Redoubt;2009;3;23;3108;Stratovolcano;Historical;Alaska-SW;United States;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;60.48;-152.75;0
+Sinabung;2016;5;21;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;;7;;3;100;EXTREME (~$25 million or more);;3.17;98.392;0
+Kusatsu-Shirane;2018;1;23;2176;Stratovolcano;Historical;Honshu-Japan;Japan;;;;1;;11;;LIMITED (roughly corresponding to less than $1 million);;36.62;138.55;0
+Stromboli;2019;7;3;926;Stratovolcano;Historical;Italy;Italy;;;2;1;;1;;;;38.789;15.213;0
+Aniakchak;-1645;;;1341;Caldera;Historical;Alaska Peninsula;United States;;;6;;;;;;;56.88;-158.17;0
+Hekla;1636;5;15;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Etna;1669;3;19;3350;Stratovolcano;Historical;Italy;Italy;;;3;2;;5;;;;37.734;15.004;0
+Vesuvius;1698;5;;1281;Complex volcano;Historical;Italy;Italy;Tsunami;;3;;;;;;;40.821;14.426;0
+Tenerife;1706;5;5;3715;Stratovolcano;Historical;Canary Is;Spain;Tsunami;;2;;;;;SEVERE (~>$5 to $24 million);;28.271;-16.641;0
+Fuji;1707;12;16;3776;Stratovolcano;Historical;Honshu-Japan;Japan;;Earthquake;4;;;;;LIMITED (roughly corresponding to less than $1 million);75;35.35;138.73;0
+Dieng Volc Complex;1826;10;11;2565;Complex volcano;Historical;Java;Indonesia;;;2;;;;;;;-7.2;109.92;0
+Etna;1832;11;1;3350;Stratovolcano;Historical;Italy;Italy;;;2;;;;;;;37.734;15.004;0
+Cosiguina;1835;1;20;872;Stratovolcano;Historical;Nicaragua;Nicaragua;;;5;;;;;;;12.98;-87.57;0
+Grimsvotn;1860;;;1725;Caldera;Historical;Iceland-NE;Iceland;;;;1;;;;;;64.42;-17.33;0
+Gamalama;1871;8;7;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;2;1;;1;;;;0.8;127.325;0
+Sinarka;1872;;;934;Stratovolcano;Historical;Kuril Is;Russia;;;4;;;;;;;48.875;154.175;0
+Dona Juana;1899;11;13;4150;Stratovolcano;Historical;Colombia;Colombia;;;4;55;;;;;;1.47;-76.92;0
+Vesuvius;1905;3;10;1281;Complex volcano;Historical;Italy;Italy;;;2;1;;1;;;;40.821;14.426;0
+Kilauea;1924;5;10;1222;Shield volcano;Historical;Hawaiian Is;United States;;;2;1;;;;;;19.425;-155.292;0
+Asama;1931;8;20;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;3;3;;;;;;36.4;138.53;0
+Mayon;1947;1;7;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;;;;;;;13.257;123.685;0
+Vsevidof;1957;3;11;2149;Stratovolcano;Historical;Aleutian Is;United States;;Earthquake;2;;;;;;;53.13;-168.68;0
+Batur;1963;9;5;1717;Caldera;Historical;Lesser Sunda Is;Indonesia;;;2;2;;;;;;-8.242;115.375;0
+Lengai, Ol Doinyo;1967;7;8;2890;Stratovolcano;Historical;Africa-E;Tanzania;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;-2.751;35.902;0
+Iya;1969;1;28;637;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;3;2;;10;;;287;-8.88;121.63;0
+Semeru;1988;7;30;3676;Stratovolcano;Historical;Java;Indonesia;;;3;1;;;;;;-8.108;112.92;0
+Aso;1990;3;26;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;1;;;;;;32.88;131.1;0
+Huila;1994;6;6;5365;Stratovolcano;Historical;Colombia;Colombia;;Earthquake;;;;;;;;2.92;-76.05;0
+Shiveluch;1999;8;15;3283;Stratovolcano;Historical;Kamchatka;Russia;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;56.653;161.36;0
+Tungurahua;1999;10;16;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;3;1;;4;;;;-1.467;-78.442;0
+White Island;2019;12;9;321;Stratovolcano;Historical;New Zealand;New Zealand;;;2;21;;24;;;;-37.52;177.18;0
+Katla;1357;;;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Kelut;1586;;;1731;Stratovolcano;Historical;Java;Indonesia;;;5;10000;;;;;;-7.93;112.308;0
+Tseax River Cone;1730;;;609;Pyroclastic cone;Radiocarbon;Canada;Canada;;;;;;;;;;55.12;-128.9;0
+Kilauea;1823;2;;1222;Shield volcano;Historical;Hawaiian Is;United States;;;0;;;;;;;19.425;-155.292;0
+Merapi;1832;12;25;2947;Stratovolcano;Historical;Java;Indonesia;;;3;32;;;;;;-7.542;110.442;0
+Gamalama;1838;2;26;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;2;4;;;;;;0.8;127.325;0
+Mayon;1858;1;;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;;;;;;;13.257;123.685;0
+Aso;1872;12;;1592;Caldera;Historical;Kyushu-Japan;Japan;;;3;4;;;;;;32.88;131.1;0
+Stromboli;1879;2;4;926;Stratovolcano;Historical;Italy;Italy;Tsunami;;2;;;;;;;38.789;15.213;0
+Azuma;1893;5;19;2024;Stratovolcano;Historical;Honshu-Japan;Japan;;;2;2;;;;;;37.73;140.25;0
+Banua Wuhu;1918;7;18;-5;Submarine volcano;Historical;Sangihe Is-Indonesia;Indonesia;Tsunami;;3;;;;;;;3.138;125.491;0
+Miyake-jima;1940;7;12;815;Stratovolcano;Historical;Izu Is-Japan;Japan;;;2;11;;20;;;;34.08;139.53;0
+Tinakula;1966;1;13;851;Stratovolcano;Historical;Santa Cruz Is-SW Pac;Solomon Is.;Tsunami;;3;;;;;;;-10.38;165.8;0
+Hekla;1970;5;5;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Fuego;1974;10;10;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;4;;;;;MODERATE (~$1 to $5 million);;14.473;-90.88;0
+Marapi;1975;1;;2891;Complex volcano;Historical;Sumatra;Indonesia;;;2;80;;;;SEVERE (~>$5 to $24 million);;-0.381;100.473;0
+Krafla;1977;4;27;650;Caldera;Historical;Iceland-NE;Iceland;;;1;;;;;LIMITED (roughly corresponding to less than $1 million);;65.73;-16.78;0
+On-take;1984;9;14;3063;Complex volcano;Historical;Honshu-Japan;Japan;;;;29;;;;;;35.9;137.48;0
+Aso;1989;2;12;1592;Caldera;Historical;Kyushu-Japan;Japan;;;;1;;;;;;32.88;131.1;0
+Mutnovsky;1991;6;;2322;Complex volcano;Historical;Kamchatka;Russia;;;;1;;;;;;52.453;158.195;0
+Hudson, Cerro;1991;8;8;1905;Stratovolcano;Historical;Chile-S;Chile;;;5;;;;;LIMITED (roughly corresponding to less than $1 million);;-45.9;-72.97;0
+Dieng Volc Complex;1992;3;18;2565;Complex volcano;Historical;Java;Indonesia;;;;1;;2;;;;-7.2;109.92;0
+Mayon;1993;2;2;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;75;;;;;;13.257;123.685;0
+Kelimutu;1995;5;15;1640;Complex volcano;Historical;Lesser Sunda Is;Indonesia;;;;1;;;;;;-8.758;121.83;0
+Okataina;2015;10;;1111;Lava dome;Historical;New Zealand;New Zealand;;;;1;;;;;;-38.12;176.5;0
+Kadovar;2018;2;9;365;Stratovolcano;Holocene;New Guinea-NE of;Papua New Guinea;Tsunami;;;;;;;;;-3.62;144.62;0
+Quilotoa;1280;;;3914;Caldera;Radiocarbon;Ecuador;Ecuador;;;6;;;;;LIMITED (roughly corresponding to less than $1 million);;-0.85;-78.9;0
+Augustine;1540;;;1252;Lava dome;Historical;Alaska-SW;United States;Tsunami;;4;;;;;;;59.37;-153.42;0
+Long Island;1660;;;1280;Complex volcano;Historical;New Guinea-NE of;Papua New Guinea;Tsunami;;6;2000;;;;SEVERE (~>$5 to $24 million);;-5.358;147.12;0
+Tate-yama;1858;4;23;2621;Stratovolcano;Historical;Honshu-Japan;Japan;;Earthquake;;;;;;;;36.57;137.6;0
+Kelut;1864;1;3;1731;Stratovolcano;Historical;Java;Indonesia;;;2;54;;;;;;-7.93;112.308;0
+Ragang;1873;1;16;2815;Stratovolcano;Historical;Mindanao-Philippines;Philippines;;;2;;;;;;;7.67;124.5;0
+Tori-shima;1902;8;7;403;Stratovolcano;Historical;Izu Is-Japan;Japan;;;3;125;;;;;;30.48;140.32;0
+Alayta;1907;8;4;1501;Shield volcano;Historical;Africa-NE;Ethiopia;;;2;;;;;;;12.88;40.57;0
+Semeru;1909;9;;3676;Stratovolcano;Historical;Java;Indonesia;;;2;221;;;;LIMITED (roughly corresponding to less than $1 million);;-8.108;112.92;0
+Kelut;1919;5;19;1731;Stratovolcano;Historical;Java;Indonesia;;;4;5110;;;;;9000;-7.93;112.308;0
+Nasu;1919;7;6;1917;Stratovolcano;Historical;Honshu-Japan;Japan;;;;2;;;;;;37.12;139.97;0
+Izalco;1920;10;29;1950;Stratovolcano;Historical;El Salvador;El Salvador;;;3;;;;;;;13.813;-89.633;0
+Bandai;1938;5;9;1819;Stratovolcano;Historical;Honshu-Japan;Japan;;;;2;;;;;;37.6;140.08;0
+Villarrica;1949;1;1;2847;Stratovolcano;Historical;Chile-C;Chile;;;3;54;;;;MODERATE (~$1 to $5 million);;-39.42;-71.93;0
+Fuego;1963;9;28;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;3;7;;;;;;14.473;-90.88;0
+Mayon;1968;4;21;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;3;6;;;;;;13.257;123.685;0
+Semeru;1985;5;10;3676;Stratovolcano;Historical;Java;Indonesia;;;3;70;;;;;;-8.108;112.92;0
+Marapi;1992;7;5;2891;Complex volcano;Historical;Sumatra;Indonesia;;;2;1;;5;;;;-0.381;100.473;0
+Stromboli;2001;10;20;926;Stratovolcano;Historical;Italy;Italy;;;2;1;;;;;;38.789;15.213;0
+Manam;2004;10;24;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;4;5;;;;;;-4.1;145.061;0
+Sarigan;2010;5;29;538;Stratovolcano;Holocene;Mariana Is-C Pacific;United States;Tsunami;Earthquake;;;;;;;;16.708;145.78;0
+Etna;2018;12;26;3350;Stratovolcano;Historical;Italy;Italy;;Earthquake;2;;;;;;;37.734;15.004;0
+Taal;2020;1;12;400;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;;;;;67;EXTREME (~$25 million or more);4573;14.002;120.993;0
+Kelut;1334;;;1731;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;;;-7.93;112.308;0
+Gamkonora;1564;12;31;1635;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;3;;;;;;;1.375;127.52;0
+Awu;1711;12;11;1320;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;3;3000;;;;;;3.67;125.5;0
+Vesuvius;1873;;;1281;Complex volcano;Historical;Italy;Italy;;;;9;;;;;;40.821;14.426;0
+Cotopaxi;1877;6;25;5911;Stratovolcano;Historical;Ecuador;Ecuador;;;4;340;;;;;;-0.677;-78.436;0
+Awu;1892;6;7;1320;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;Tsunami;;3;1532;;;;SEVERE (~>$5 to $24 million);;3.67;125.5;0
+Semeru;1895;5;22;3676;Stratovolcano;Historical;Java;Indonesia;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.108;112.92;0
+Karkar;1895;6;17;1839;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;2;1;;;;;;-4.649;145.964;0
+Pelee;1902;5;20;1397;Stratovolcano;Historical;W Indies;Martinique;Tsunami;;;;;;;;;14.82;-61.17;0
+Karthala;1904;2;25;2361;Shield volcano;Historical;Indian O-W;Comoros;;;2;1;;;;LIMITED (roughly corresponding to less than $1 million);;-11.75;43.38;0
+Vesuvius;1906;4;4;1281;Complex volcano;Historical;Italy;Italy;Tsunami;;3;350;;300;;;;40.821;14.426;0
+Etna;1928;11;2;3350;Stratovolcano;Historical;Italy;Italy;;;1;5;;;;;;37.734;15.004;0
+Calbuco;1929;1;6;2003;Stratovolcano;Historical;Chile-S;Chile;;;3;;;;;;;-41.326;-72.614;0
+Merapi;1930;12;18;2947;Stratovolcano;Historical;Java;Indonesia;;;3;1369;;;;SEVERE (~>$5 to $24 million);1109;-7.542;110.442;0
+Kharimkotan;1933;1;8;1145;Stratovolcano;Historical;Kuril Is;Russia;Tsunami;;3;;;;;;;49.12;154.508;0
+Kuchinoerabu-jima;1933;12;24;649;Stratovolcano;Historical;Ryukyu Is;Japan;;;4;8;;26;;;;30.43;130.22;0
+Semeru;1950;8;28;3676;Stratovolcano;Historical;Java;Indonesia;;;1;6;;;;;;-8.108;112.92;0
+Fournaise, Piton de la;1972;6;9;2631;Shield volcano;Historical;Indian O-W;Reunion;;;2;3;;;;;;-21.229;55.713;0
+Usu;1978;1;13;731;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;3;3;;2;;;;42.53;140.83;0
+Iliwerung;1979;7;18;1018;Complex volcano;Historical;Lesser Sunda Is;Indonesia;Tsunami;;;;;;;;;-8.54;123.59;0
+Maderas;1996;9;27;1394;Stratovolcano;Holocene;Nicaragua;Nicaragua;;;;6;;;;;;11.446;-85.515;0
+Reventador;2002;11;3;3562;Stratovolcano;Historical;Ecuador;Ecuador;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;-0.078;-77.656;0
+Tungurahua;2011;4;;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;-1.467;-78.442;0
+Aso;2016;10;8;1592;Caldera;Historical;Kyushu-Japan;Japan;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;32.88;131.1;0
+Hudson, Cerro;-1890;;;1905;Stratovolcano;Historical;Chile-S;Chile;;;6;;;;;;;-45.9;-72.97;0
+Cotopaxi;-455;;;5911;Stratovolcano;Historical;Ecuador;Ecuador;;;4;;;;;;;-0.677;-78.436;0
+Ksudach;240;;;1079;Stratovolcano;Historical;Kamchatka;Russia;;;6;;;;;;;51.8;157.53;0
+Oraefajokull;1362;6;5;2119;Stratovolcano;Historical;Iceland-SE;Iceland;;;5;220;;;;;;64;-16.65;0
+Kelut;1385;;;1731;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;;;-7.93;112.308;0
+Furnas;1630;9;3;805;Stratovolcano;Historical;Azores;Portugal;;;4;200;;;;;;37.77;-25.32;0
+Etna;1669;3;11;3350;Stratovolcano;Historical;Italy;Italy;;Earthquake;3;;;;;;;37.734;15.004;0
+Aoba;1670;;;1496;Shield volcano;Historical;Vanuatu-SW Pacific;Vanuatu;;;2;;;;;;;-15.4;167.83;0
+Guntur;1690;;;2249;Complex volcano;Historical;Java;Indonesia;;;3;;;;;;;-7.13;107.83;0
+Mayon;1766;7;20;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;3;49;;;;;;13.257;123.685;0
+Aoga-shima;1780;7;27;423;Stratovolcano;Historical;Izu Is-Japan;Japan;;;3;7;;;;;;32.45;139.77;0
+Grimsvotn;1784;4;;1725;Caldera;Historical;Iceland-NE;Iceland;;;4;;;;;;;64.42;-17.33;0
+Victory;1890;;;1925;Stratovolcano;Historical;New Guinea;Papua New Guinea;;;2;;;;;;;-9.2;149.07;0
+Asama;1913;5;29;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;1;1;;;;;;36.4;138.53;0
+Tokachi;1926;5;24;2077;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;3;144;;207;;;5080;43.42;142.68;0
+Fuego;1932;1;21;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;4;;;;;;;14.473;-90.88;0
+Villarrica;1964;3;3;2847;Stratovolcano;Historical;Chile-C;Chile;;;2;25;;;;;;-39.42;-71.93;0
+Deception Island;1967;12;4;576;Caldera;Historical;Antarctica;Antarctica;Tsunami;;3;;;;;;;-62.97;-60.65;0
+Merapi;1974;10;22;2947;Stratovolcano;Historical;Java;Indonesia;;;2;9;;;;;6;-7.542;110.442;0
+Nyiragongo;1977;1;10;3470;Stratovolcano;Historical;Africa-C;Congo, DRC;;;1;;;;;SEVERE (~>$5 to $24 million);;-1.52;29.25;0
+Lonquimay;1988;12;25;2865;Stratovolcano;Historical;Chile-C;Chile;;;3;1;;;;;;-38.377;-71.58;0
+Unzen;1991;6;3;1500;Complex volcano;Historical;Kyushu-Japan;Japan;;;1;43;;;;;;32.75;130.3;0
+Guagua Pichincha;1993;3;12;4784;Stratovolcano;Historical;Ecuador;Ecuador;;;1;2;;;;;;-0.171;-78.598;0
+Tungurahua;2008;8;22;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;3;2;;2;;LIMITED (roughly corresponding to less than $1 million);2;-1.467;-78.442;0
+Nabro;2011;6;22;2218;Stratovolcano;Holocene;Africa-NE;Eritrea;;;3;31;;;;LIMITED (roughly corresponding to less than $1 million);;13.37;41.7;0
+Ubinas;2013;9;1;5672;Stratovolcano;Historical;Peru;Peru;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;-16.355;-70.903;0
+Sinabung;2014;2;1;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;;17;;3;;LIMITED (roughly corresponding to less than $1 million);;3.17;98.392;0
+Sinabung;2015;10;16;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;;1;;;;LIMITED (roughly corresponding to less than $1 million);;3.17;98.392;0
+Santorini;-197;;;329;Shield volcano;Historical;Greece;Greece;Tsunami;Earthquake;3;;;;;;;36.404;25.396;0
+Bona-Churchill;60;;;5005;Stratovolcano;Radiocarbon;Alaska-E;United States;;;6;;;;;;;61.38;-141.75;0
+Vesuvius;1631;12;16;1281;Complex volcano;Historical;Italy;Italy;Tsunami;Earthquake;5;4000;;;;EXTREME (~$25 million or more);;40.821;14.426;0
+Vesuvius;1682;8;12;1281;Complex volcano;Historical;Italy;Italy;;;3;4;;;;;;40.821;14.426;0
+San Jorge;1757;7;9;1053;Fissure vent;Historical;Azores;Portugal;;Earthquake;0;;;;;;;38.65;-28.08;0
+Soufriere St. Vincent;1812;4;27;1220;Stratovolcano;Historical;W Indies;St. Vincent & the Grenadines;;;4;56;;;;;;13.33;-61.18;0
+Avachinsky;1827;8;9;2741;Stratovolcano;Historical;Kamchatka;Russia;;;2;;;;;;;53.255;158.83;0
+Tangkubanparahu;1846;5;27;2084;Stratovolcano;Historical;Java;Indonesia;;;2;;;;;;;-6.77;107.6;0
+Komaga-take;1856;9;25;1140;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;4;20;;;;;;42.07;140.68;0
+Augustine;1883;10;6;1252;Lava dome;Historical;Alaska-SW;United States;Tsunami;;4;8;;;;;;59.37;-153.42;0
+Sakura-jima;1914;1;12;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;Tsunami;Earthquake;4;28;;;0.04;LIMITED (roughly corresponding to less than $1 million);2148;31.58;130.67;0
+Stromboli;1919;5;22;926;Stratovolcano;Historical;Italy;Italy;Tsunami;;3;4;;;;LIMITED (roughly corresponding to less than $1 million);10;38.789;15.213;0
+Esjufjoll;1927;9;5;1760;Stratovolcano;Historical;Iceland-SE;Iceland;;;1;1;;;;;;64.27;-16.65;0
+Vesuvius;1944;3;27;1281;Complex volcano;Historical;Italy;Italy;;;2;27;;;;;;40.821;14.426;0
+Camiguin;1949;6;;1332;Stratovolcano;Historical;Mindanao-Philippines;Philippines;;;3;2;;;;;;9.203;124.673;0
+Myojun Knoll;1953;3;25;360;Submarine volcano;Holocene;Izu Is-Japan;Japan;Tsunami;;2;;;;;;;32.1;139.85;0
+Arenal;1968;7;29;1657;Stratovolcano;Historical;Costa Rica;Costa Rica;;;3;80;;;;;;10.463;-84.703;0
+Hakone;1972;10;2;1438;Complex volcano;Radiocarbon;Honshu-Japan;Japan;;;;2;;;;;;35.22;139.02;0
+Alaid;1981;4;27;2339;Stratovolcano;Historical;Kuril Is;Russia;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;50.858;155.55;0
+Kelut;1990;11;25;1731;Stratovolcano;Historical;Java;Indonesia;;;;4;;;;;;-7.93;112.308;0
+Soufriere Hills;1997;8;1;915;Stratovolcano;Historical;W Indies;Montserrat;;;3;2;;;;;;16.72;-62.18;0
+Semeru;2002;;;3676;Stratovolcano;Historical;Java;Indonesia;;;3;3;;;;;;-8.108;112.92;0
+Tungurahua;2006;8;17;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;3;5;;13;;SEVERE (~>$5 to $24 million);;-1.467;-78.442;0
+Tungurahua;-1010;;;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;5;;;;;;;-1.467;-78.442;0
+Augustine;350;;;1252;Lava dome;Historical;Alaska-SW;United States;;;;;;;;;;59.37;-153.42;0
+Katla;1311;1;18;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;;;;;;;63.63;-19.05;0
+Merapi;1587;;;2947;Stratovolcano;Historical;Java;Indonesia;;;4;;;;;;;-7.542;110.442;0
+Kelut;1716;7;20;1731;Stratovolcano;Historical;Java;Indonesia;;;2;;;;;;;-7.93;112.308;0
+Bardarbunga;1729;2;1;2000;Stratovolcano;Historical;Iceland-NE;Iceland;;;1;;;;;LIMITED (roughly corresponding to less than $1 million);;64.63;-17.53;0
+Cotopaxi;1742;12;9;5911;Stratovolcano;Historical;Ecuador;Ecuador;;;3;;;;;SEVERE (~>$5 to $24 million);;-0.677;-78.436;0
+Gamalama;1772;5;9;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;Tsunami;;3;35;;;;;;0.8;127.325;0
+Lokon-Empung;1775;;;1580;Stratovolcano;Historical;Sulawesi-Indonesia;Indonesia;;;3;;;;;;;1.358;124.792;0
+Ararat;1840;7;2;5165;Stratovolcano;Holocene;Turkey;Turkey;;;3;1900;;;;;;39.7;44.28;0
+Mayon;1871;12;8;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;3;3;;;;;;13.257;123.685;0
+Taal;1874;7;19;400;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;;;;;;;14.002;120.993;0
+Krakatau;1883;8;27;813;Caldera;Historical;Indonesia;Indonesia;Tsunami;;6;2000;;;;SEVERE (~>$5 to $24 million);;-6.102;105.423;0
+Semeru;1885;4;18;3676;Stratovolcano;Historical;Java;Indonesia;;;2;74;;;;;;-8.108;112.92;0
+Mauna Loa;1919;9;29;4170;Shield volcano;Historical;Hawaiian Is;United States;Tsunami;;0;;;;;;;19.475;-155.608;0
+Dieng Volc Complex;1939;10;13;2565;Complex volcano;Historical;Java;Indonesia;;;1;10;;;;LIMITED (roughly corresponding to less than $1 million);;-7.2;109.92;0
+Myojun Knoll;1952;9;23;360;Submarine volcano;Holocene;Izu Is-Japan;Japan;Tsunami;;2;;;;;;;32.1;139.85;0
+Ambalatungan Group;1952;;;2329;Compound volcano;Fumarolic;Luzon-Philippines;Philippines;;;1;12;;;;;;17.32;121.1;0
+Calbuco;1961;1;25;2003;Stratovolcano;Historical;Chile-S;Chile;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;-41.326;-72.614;0
+Semeru;1978;9;19;3676;Stratovolcano;Historical;Java;Indonesia;;;3;12;;;;;;-8.108;112.92;0
+Oku Volc Field;1984;8;15;3011;Maar;Radiocarbon;Africa-W;Cameroon;;;;37;;;;;;6.25;10.5;0
+Stromboli;1986;7;24;926;Stratovolcano;Historical;Italy;Italy;;;2;1;;;;;;38.789;15.213;0
+Sirung;1987;12;1;862;Complex volcano;Historical;Lesser Sunda Is;Indonesia;;Earthquake;;;;;;;;-8.51;124.148;0
+Kilauea;1993;4;19;1222;Shield volcano;Historical;Hawaiian Is;United States;;;;1;;22;;;;19.425;-155.292;0
+Popocatepetl;1996;4;30;5426;Stratovolcano;Historical;Mexico;Mexico;;;3;5;;;;LIMITED (roughly corresponding to less than $1 million);;19.023;-98.622;0
+Tungurahua;2006;7;18;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;3;1;;;;;;-1.467;-78.442;0
+Sinabung;2010;8;30;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;;2;;;;;;3.17;98.392;0
+Yellowstone;2016;6;9;2805;Caldera;Tephrochronology;US-Wyoming;United States;;;;1;;;;;;44.43;-110.67;0
+Kikai;-4350;;;717;Caldera;Historical;Ryukyu Is;Japan;;;7;;;;;SEVERE (~>$5 to $24 million);;30.78;130.28;0
+Katla;934;;;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Fentale;1250;;;2007;Stratovolcano;Historical;Africa-NE;Ethiopia;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;8.975;39.93;0
+Hekla;1389;12;1;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Sakura-jima;1471;11;3;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;5;;;;;;;31.58;130.67;0
+Katla;1500;;;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Colima;1590;1;15;3850;Stratovolcano;Historical;Mexico;Mexico;;;3;;;;;;;19.514;-103.62;0
+Asama;1596;5;1;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;;;;;;;36.4;138.53;0
+Hachijo-jima;1606;1;23;854;Stratovolcano;Historical;Izu Is-Japan;Japan;Tsunami;;2;;;;;;;33.13;139.77;0
+Bardarbunga;1712;1;15;2000;Stratovolcano;Historical;Iceland-NE;Iceland;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;64.63;-17.53;0
+Bardarbunga;1716;10;5;2000;Stratovolcano;Historical;Iceland-NE;Iceland;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;64.63;-17.53;0
+Vesuvius;1737;5;20;1281;Complex volcano;Historical;Italy;Italy;;;2;2;;;;MODERATE (~$1 to $5 million);;40.821;14.426;0
+Sakura-jima;1779;11;8;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;4;153;;;;;;31.58;130.67;0
+Asama;1783;8;5;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;4;1491;;;;;;36.4;138.53;0
+Merapi;1822;12;27;2947;Stratovolcano;Historical;Java;Indonesia;;;3;100;;;;SEVERE (~>$5 to $24 million);;-7.542;110.442;0
+Tinakula;1840;;;851;Stratovolcano;Historical;Santa Cruz Is-SW Pac;Solomon Is.;;;3;;;;;;;-10.38;165.8;0
+Soputan;1845;2;8;1784;Stratovolcano;Historical;Sulawesi-Indonesia;Indonesia;Tsunami;Earthquake;2;;;;;;;1.108;124.725;0
+Fogo;1847;4;9;2829;Stratovolcano;Historical;Cape Verde Is;Cape Verde;;;2;;;;;;;14.95;-24.35;0
+Awu;1856;3;2;1320;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;Tsunami;Earthquake;3;2806;;;;SEVERE (~>$5 to $24 million);;3.67;125.5;0
+Makian;1861;12;29;1357;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;4;326;;47;;;;0.32;127.4;0
+Okataina;1903;8;30;1111;Lava dome;Historical;New Zealand;New Zealand;;;1;4;;;;;;-38.12;176.5;0
+Hakone;1951;11;5;1438;Complex volcano;Radiocarbon;Honshu-Japan;Japan;;;;2;;;;;;35.22;139.02;0
+Bam;1954;8;3;685;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;2;;;;;;;-3.6;144.85;0
+Daisetsu;1958;7;21;2290;Stratovolcano;Tephrochronology;Hokkaido-Japan;Japan;;;;2;;;;;;43.68;142.88;0
+Gamalama;1962;12;31;1715;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;2;5;;5;;;;0.8;127.325;0
+Merapi;1969;1;7;2947;Stratovolcano;Historical;Java;Indonesia;;;2;3;;;;;;-7.542;110.442;0
+Paluweh;1973;1;;875;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.32;121.708;0
+Sakura-jima;1974;6;17;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;3;3;;;;;;31.58;130.67;0
+Tangkubanparahu;1978;;;2084;Stratovolcano;Historical;Java;Indonesia;;;;3;;;;;;-6.77;107.6;0
+Colo [Una Una];1983;7;23;507;Stratovolcano;Historical;Sulawesi-Indonesia;Indonesia;;;4;;;;;MODERATE (~$1 to $5 million);;-0.17;121.608;0
+Etna;1987;4;17;3350;Stratovolcano;Historical;Italy;Italy;;;2;2;;7;;;;37.734;15.004;0
+Rinjani;1994;11;3;3726;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;3;31;;;;;;-8.42;116.47;0
+Grimsvotn;1996;9;30;1725;Caldera;Historical;Iceland-NE;Iceland;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;64.42;-17.33;0
+Soufriere Hills;1997;6;25;915;Stratovolcano;Historical;W Indies;Montserrat;;;3;22;1;;;;;16.72;-62.18;0
+Guagua Pichincha;1999;10;5;4784;Stratovolcano;Historical;Ecuador;Ecuador;;;3;2;;;;;;-0.171;-78.598;0
+Merapi;2001;8;5;2947;Stratovolcano;Historical;Java;Indonesia;;;2;2;;;;;;-7.542;110.442;0
+Nyiragongo;2002;1;17;3470;Stratovolcano;Historical;Africa-C;Congo, DRC;;;1;100;;400;;SEVERE (~>$5 to $24 million);;-1.52;29.25;0
+Karangetang [Api Siau];2011;3;18;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;2.78;125.48;0
+Kilauea;2012;2;10;1222;Shield volcano;Historical;Hawaiian Is;United States;;;;;;;;MODERATE (~$1 to $5 million);;19.425;-155.292;0
+Kilauea;2012;3;2;1222;Shield volcano;Historical;Hawaiian Is;United States;;;;;;;;LIMITED (roughly corresponding to less than $1 million);1;19.425;-155.292;0
+Pago;-1370;;;742;Caldera;Historical;New Britain-SW Pac;Papua New Guinea;;;6;;;;;;;-5.58;150.52;0
+Pago;710;;;742;Caldera;Historical;New Britain-SW Pac;Papua New Guinea;;;6;;;;;;;-5.58;150.52;0
+Mayon;1853;7;13;2462;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;3;34;;;;;;13.257;123.685;0
+Merapi;1872;11;3;2947;Stratovolcano;Historical;Java;Indonesia;;;4;200;;;;SEVERE (~>$5 to $24 million);;-7.542;110.442;0
+Yasur;1878;1;10;361;Stratovolcano;Historical;Vanuatu-SW Pacific;Vanuatu;Tsunami;;3;;;;;;;-19.52;169.425;0
+Savai'i;1905;8;4;1858;Shield volcano;Historical;Samoa-SW Pacific;Samoa;Tsunami;;2;;;;;SEVERE (~>$5 to $24 million);;-13.612;-172.525;0
+Katla;1918;10;12;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Stromboli;1944;8;20;926;Stratovolcano;Historical;Italy;Italy;Tsunami;;2;;;;;;;38.789;15.213;0
+Myojun Knoll;1952;9;26;360;Submarine volcano;Holocene;Izu Is-Japan;Japan;Tsunami;;2;;;;;;;32.1;139.85;0
+Carran-Los Venados;1955;7;26;1114;Pyroclastic cone;Historical;Chile-C;Chile;;;4;2;;;;;;-40.35;-72.07;0
+Merapi;1961;5;8;2947;Stratovolcano;Historical;Java;Indonesia;;;3;6;;6;;MODERATE (~$1 to $5 million);;-7.542;110.442;0
+Arenal;1975;6;17;1657;Stratovolcano;Historical;Costa Rica;Costa Rica;;;3;2;;;;;;10.463;-84.703;0
+Hekla;1980;8;17;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Paluweh;1981;9;5;875;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.32;121.708;0
+Akita-Yake-yama;1988;;;1366;Complex volcano;Historical;Honshu-Japan;Japan;;;;3;;;;;;39.97;140.77;0
+Karthala;1991;7;3;2361;Shield volcano;Historical;Indian O-W;Comoros;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-11.75;43.38;0
+Merapi;1994;11;22;2947;Stratovolcano;Historical;Java;Indonesia;;;3;60;;;;;;-7.542;110.442;0
+Yake-dake;1995;2;11;2455;Stratovolcano;Historical;Honshu-Japan;Japan;;;1;4;;;;;;36.22;137.58;0
+Stromboli;2002;12;30;926;Stratovolcano;Historical;Italy;Italy;Tsunami;;;;;;;LIMITED (roughly corresponding to less than $1 million);;38.789;15.213;0
+Soufriere Hills;2003;7;12;915;Stratovolcano;Historical;W Indies;Montserrat;Tsunami;;3;;;;;;;16.72;-62.18;0
+Tungurahua;2010;1;;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;-1.467;-78.442;0
+Fuego;2018;6;3;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;2;201;229;27;120;EXTREME (~$25 million or more);186;14.473;-90.88;0
+Krakatau;416;;;813;Caldera;Historical;Indonesia;Indonesia;Tsunami;;;;;;;LIMITED (roughly corresponding to less than $1 million);;-6.102;105.423;0
+Kelut;1311;;;1731;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;;;-7.93;112.308;0
+Nasu;1410;3;5;1917;Stratovolcano;Historical;Honshu-Japan;Japan;;;3;180;;;;;;37.12;139.97;0
+Fayal;1672;4;24;1043;Stratovolcano;Historical;Azores;Portugal;;;2;3;;;;;;38.6;-28.73;0
+Sakura-jima;1780;10;31;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;Tsunami;;;;;;;;;31.58;130.67;0
+Kieyo;1800;;;2175;Stratovolcano;Historical;Africa-E;Tanzania;;;2;;;;;SEVERE (~>$5 to $24 million);;-9.23;33.78;0
+Asama;1803;11;7;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;;;;;;;36.4;138.53;0
+Ambrym;1894;10;;1334;Pyroclastic shield;Historical;Vanuatu-SW Pacific;Vanuatu;;;3;10;;;;;;-16.25;168.12;0
+Usu;1910;7;25;731;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;2;1;;;;;;42.53;140.83;0
+Asama;1911;5;8;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;1;;;;;60;36.4;138.53;0
+San Salvador;1917;6;7;1893;Stratovolcano;Historical;El Salvador;El Salvador;;Earthquake;3;325;;;;;;13.736;-89.286;0
+Tangkubanparahu;1923;6;;2084;Stratovolcano;Historical;Java;Indonesia;;;;3;;;;;;-6.77;107.6;0
+Kirishima;1923;7;1;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;2;1;;;;;;31.93;130.87;0
+Komaga-take;1929;6;17;1140;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;4;2;;4;;;;42.07;140.68;0
+Santa Maria;1929;11;2;3772;Stratovolcano;Historical;Guatemala;Guatemala;;;3;200;;;;;;14.756;-91.552;0
+Kick-'em-Jenny;1939;7;24;-177;Submarine volcano;Historical;W Indies;Netherlands;Tsunami;;1;;;;;;;12.3;-61.63;0
+Kelut;1951;8;31;1731;Stratovolcano;Historical;Java;Indonesia;;;3;7;;;;;;-7.93;112.308;0
+Awu;1966;8;12;1320;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;4;39;;1000;;;;3.67;125.5;0
+Villarrica;1971;10;29;2847;Stratovolcano;Historical;Chile-C;Chile;;;2;15;;;;;;-39.42;-71.93;0
+Niigata-Yake-yama;1974;7;28;2400;Lava dome;Historical;Honshu-Japan;Japan;;;2;3;;;;;;36.92;138.03;0
+Karthala;1977;4;5;2361;Shield volcano;Historical;Indian O-W;Comoros;;;0;;;;;LIMITED (roughly corresponding to less than $1 million);;-11.75;43.38;0
+Bulusan;1978;7;29;1565;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;12.77;124.05;0
+Chichon, El;1982;4;4;1150;Tuff cone;Historical;Mexico;Mexico;;;5;33;;;;;;17.36;-93.228;0
+Akita-Yake-yama;1986;5;8;1366;Complex volcano;Historical;Honshu-Japan;Japan;;;;1;;;;;;39.97;140.77;0
+Etna;2001;7;26;3350;Stratovolcano;Historical;Italy;Italy;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;37.734;15.004;0
+Kilauea;2018;2;1;1222;Shield volcano;Historical;Hawaiian Is;United States;;;1;1;;3;;;;19.425;-155.292;0
+Pinatubo;-1050;;;1486;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;6;;;;;;;15.13;120.35;0
+Sakura-jima;764;;;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;4;80;;;;;;31.58;130.67;0
+Sakura-jima;766;7;20;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;Tsunami;Earthquake;3;;;;;;;31.58;130.67;0
+Makian;1760;;;1357;Stratovolcano;Historical;Halmahera-Indonesia;Indonesia;;;4;2000;;;;;;0.32;127.4;0
+Hekla;1766;4;5;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Kilauea;1790;11;;1222;Shield volcano;Historical;Hawaiian Is;United States;;;4;5405;;;;;;19.425;-155.292;0
+Asama;1803;7;4;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;;;;;;;36.4;138.53;0
+Vesuvius;1813;5;;1281;Complex volcano;Historical;Italy;Italy;Tsunami;;2;;;;;;;40.821;14.426;0
+Shishaldin;1825;3;21;2857;Stratovolcano;Historical;Aleutian Is;United States;;;3;;;;;;;54.75;-163.97;0
+Lamongan;1869;8;;1651;Stratovolcano;Historical;Java;Indonesia;;;2;8;;;;;;-8;113.342;0
+Krakatau;1883;10;10;813;Caldera;Historical;Indonesia;Indonesia;Tsunami;;;;;;;;;-6.102;105.423;0
+Asama;1900;1;22;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;25;;;;;;36.4;138.53;0
+White Island;1914;9;10;321;Stratovolcano;Historical;New Zealand;New Zealand;;;;11;;;;;;-37.52;177.18;0
+Paluweh;1928;8;4;875;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;Tsunami;;3;98;;;;;;-8.32;121.708;0
+Myojun Knoll;1952;9;24;360;Submarine volcano;Holocene;Izu Is-Japan;Japan;Tsunami;;2;31;;;;LIMITED (roughly corresponding to less than $1 million);;32.1;139.85;0
+Sirung;1953;6;;862;Complex volcano;Historical;Lesser Sunda Is;Indonesia;;;0;5;;1;;;;-8.51;124.148;0
+Villarrica;1963;5;21;2847;Stratovolcano;Historical;Chile-C;Chile;;;2;;;;;;;-39.42;-71.93;0
+Merapi;1976;11;25;2947;Stratovolcano;Historical;Java;Indonesia;;;2;29;;;;;;-7.542;110.442;0
+Usu;1977;8;7;731;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;3;3;;;;;;42.53;140.83;0
+St. Helens;1980;5;18;2549;Stratovolcano;Historical;US-Washington;United States;Tsunami;Earthquake;5;57;;;2000;EXTREME (~$25 million or more);;46.2;-122.18;0
+Vilyuchik;1981;;;2173;Stratovolcano;Tephrochronology;Kamchatka;Russia;;;;;;;;;;52.68;158.3;0
+Ruiz;1985;11;13;5321;Stratovolcano;Historical;Colombia;Colombia;;;3;23080;;10000;;;;4.895;-75.322;0
+Shiveluch;1990;2;2;3283;Stratovolcano;Historical;Kamchatka;Russia;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;56.653;161.36;0
+Santa Maria;1990;7;19;3772;Stratovolcano;Historical;Guatemala;Guatemala;;;3;4;;;;;;14.756;-91.552;0
+Yasur;1995;2;4;361;Stratovolcano;Historical;Vanuatu-SW Pacific;Vanuatu;;;3;2;;;;;;-19.52;169.425;0
+Merapi;2006;6;14;2947;Stratovolcano;Historical;Java;Indonesia;;;1;2;;;;;;-7.542;110.442;0
+Eyjafjallajokull;2010;3;31;1666;Stratovolcano;Historical;Iceland-S;Iceland;;;2;2;;;;;;63.63;-19.62;0
+Tungurahua;2010;11;;5023;Stratovolcano;Historical;Ecuador;Ecuador;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;-1.467;-78.442;0
+Katla;2011;7;9;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Sinabung;2015;2;20;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;3.17;98.392;0
+Ambrym;2018;12;15;1334;Pyroclastic shield;Historical;Vanuatu-SW Pacific;Vanuatu;;Earthquake;2;;;;;MODERATE (~$1 to $5 million);;-16.25;168.12;0
+Manam;2019;6;28;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;4;;;;;MODERATE (~$1 to $5 million);;-4.1;145.061;0
+Redoubt;-1550;;;3108;Stratovolcano;Historical;Alaska-SW;United States;;;;;;;;;;60.48;-152.75;0
+Raoul Island;-250;;;516;Stratovolcano;Historical;Kermadec Is;New Zealand;;;6;;;;;;;-29.27;-177.92;0
+Komaga-take;1640;7;31;1140;Stratovolcano;Historical;Hokkaido-Japan;Japan;Tsunami;Earthquake;5;;;;;;;42.07;140.68;0
+Aoga-shima;1785;4;18;423;Stratovolcano;Historical;Izu Is-Japan;Japan;;;3;135;;;;;;32.45;139.77;0
+Awu;1812;8;6;1320;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;3;953;;;;;;3.67;125.5;0
+Niuafo'ou;1853;6;24;260;Shield volcano;Historical;Tonga-SW Pacific;Tonga;;;0;25;;;;;;-15.6;-175.63;0
+Sorikmarapi;1892;5;21;2145;Stratovolcano;Historical;Sumatra;Indonesia;;;2;180;;;;;;0.686;99.539;0
+Calbuco;1917;4;;2003;Stratovolcano;Historical;Chile-S;Chile;;;3;;;;;;;-41.326;-72.614;0
+Asama;1938;7;16;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;1;;;;;;;36.4;138.53;0
+Asama;1941;7;13;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;1;;1;;;;36.4;138.53;0
+Michoacan-Guanajuato;1943;2;20;3860;Cinder cone;Historical;Mexico;Mexico;;;4;3;;;;;;19.48;-102.25;0
+Dieng Volc Complex;1944;12;4;2565;Complex volcano;Historical;Java;Indonesia;;;2;117;;250;;;;-7.2;109.92;0
+Oshima;1953;10;5;758;Stratovolcano;Historical;Izu Is-Japan;Japan;;;1;1;;;;;;34.73;139.38;0
+Hudson, Cerro;1973;4;5;1905;Stratovolcano;Historical;Chile-S;Chile;;;;2;;;;LIMITED (roughly corresponding to less than $1 million);;-45.9;-72.97;0
+Aso;1990;4;18;1592;Caldera;Historical;Kyushu-Japan;Japan;;;2;1;;;;;;32.88;131.1;0
+Pinatubo;1991;6;15;1486;Stratovolcano;Historical;Luzon-Philippines;Philippines;;Earthquake;6;350;;4;;SEVERE (~>$5 to $24 million);;15.13;120.35;0
+Pinatubo;1992;7;12;1486;Stratovolcano;Historical;Luzon-Philippines;Philippines;;;1;6;;;;;;15.13;120.35;0
+Fogo;1995;4;2;2829;Stratovolcano;Historical;Cape Verde Is;Cape Verde;;;2;;;20;;LIMITED (roughly corresponding to less than $1 million);10;14.95;-24.35;0
+Manam;1996;12;3;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;3;13;;29;;;;-4.1;145.061;0
+Kilauea;2000;11;3;1222;Shield volcano;Historical;Hawaiian Is;United States;;;;2;;;;;;19.425;-155.292;0
+Santa Ana;2005;10;1;2365;Stratovolcano;Historical;El Salvador;El Salvador;;;3;2;;;;;;13.853;-89.63;0
+Soufriere Hills;2006;5;20;915;Stratovolcano;Historical;W Indies;Montserrat;Tsunami;;2;;;;;;;16.72;-62.18;0
+Calbuco;2015;4;22;2003;Stratovolcano;Historical;Chile-S;Chile;;;;;;;;MODERATE (~$1 to $5 million);;-41.326;-72.614;0
+Campi Flegrei;2017;9;12;458;Caldera;Historical;Italy;Italy;;;;3;;;;;;40.827;14.139;0
+Kadovar;2018;1;5;365;Stratovolcano;Holocene;New Guinea-NE of;Papua New Guinea;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;-3.62;144.62;0
+Ijen;2018;3;21;2799;Stratovolcano;Historical;Java;Indonesia;;;;;;30;;;;-8.058;114.242;0
+Dama Ali;1631;2;14;1068;Shield volcano;Historical;Africa-NE;Ethiopia;;Earthquake;;50;;;;MODERATE (~$1 to $5 million);;11.28;41.63;0
+Teon;1659;11;11;655;Stratovolcano;Historical;Banda Sea;Pacific Ocean;Tsunami;;4;;;;;;;-6.92;129.125;0
+Iwo-Tori-shima;1664;;;217;Complex volcano;Historical;Ryukyu Is;Japan;Tsunami;;;;;;;;;27.85;128.25;0
+Santorini;1707;5;;329;Shield volcano;Historical;Greece;Greece;Tsunami;;;;;;;;;36.404;25.396;0
+Krafla;1729;6;30;650;Caldera;Historical;Iceland-NE;Iceland;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;65.73;-16.78;0
+Sakura-jima;1780;2;9;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;4;;;;;;;31.58;130.67;0
+Banda Api;1835;11;1;640;Caldera;Historical;Banda Sea;Pacific Ocean;;Earthquake;;;;;;MODERATE (~$1 to $5 million);;-4.525;129.871;0
+Soufriere Guadeloupe;1843;2;17;1467;Stratovolcano;Historical;W Indies;Guadeloupe;Tsunami;;;;;;;;;16.05;-61.67;0
+Shiveluch;1854;2;18;3283;Stratovolcano;Historical;Kamchatka;Russia;;;5;;;;;LIMITED (roughly corresponding to less than $1 million);;56.653;161.36;0
+Shishaldin;1856;7;26;2857;Stratovolcano;Historical;Aleutian Is;United States;Tsunami;;;;;;;;;54.75;-163.97;0
+Fuego;1860;8;18;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;14.473;-90.88;0
+Etna;1868;9;5;3350;Stratovolcano;Historical;Italy;Italy;Tsunami;Earthquake;;;;;;;;37.734;15.004;0
+Merapi;1872;4;17;2947;Stratovolcano;Historical;Java;Indonesia;;;4;170;;;;;;-7.542;110.442;0
+Kelut;1875;1;29;1731;Stratovolcano;Historical;Java;Indonesia;;;0;;;;;MODERATE (~$1 to $5 million);;-7.93;112.308;0
+Yasur;1878;2;11;361;Stratovolcano;Historical;Vanuatu-SW Pacific;Vanuatu;Tsunami;Earthquake;;;;;;;;-19.52;169.425;0
+Cameroon, Mt.;1909;4;28;4095;Stratovolcano;Historical;Africa-W;Cameroon;;Earthquake;2;;;;;;;4.203;9.17;0
+Pago;1914;1;18;742;Caldera;Historical;New Britain-SW Pac;Papua New Guinea;;;3;;;;;;;-5.58;150.52;0
+Okataina;1917;4;1;1111;Lava dome;Historical;New Zealand;New Zealand;;;1;2;;3;;;;-38.12;176.5;0
+Krakatau;1930;3;17;813;Caldera;Historical;Indonesia;Indonesia;Tsunami;;2;;;;;;;-6.102;105.423;0
+Stromboli;1930;9;11;926;Stratovolcano;Historical;Italy;Italy;Tsunami;;3;5;;20;;MODERATE (~$1 to $5 million);;38.789;15.213;0
+Hood;1934;;;3426;Stratovolcano;Historical;US-Oregon;United States;;;;1;;;;;;45.374;-121.694;0
+Sarychev Peak;1946;11;13;1496;Stratovolcano;Historical;Kuril Is;Russia;Tsunami;;4;;;;;;;48.092;153.2;0
+Stromboli;1954;2;;926;Stratovolcano;Historical;Italy;Italy;Tsunami;;;;;;;;;38.789;15.213;0
+Sakura-jima;1955;10;13;1117;Stratovolcano;Historical;Kyushu-Japan;Japan;;;3;;;;;;;31.58;130.67;0
+Merapi;1962;10;;2947;Stratovolcano;Historical;Java;Indonesia;;;;2;;;;;;-7.542;110.442;0
+Kelut;1990;2;10;1731;Stratovolcano;Historical;Java;Indonesia;;;4;32;;;;;;-7.93;112.308;0
+Unzen;1993;6;23;1500;Complex volcano;Historical;Kyushu-Japan;Japan;;;1;1;;;;;;32.75;130.3;0
+Karangetang [Api Siau];2010;8;6;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;3;4;;5;;;;2.78;125.48;0
+Kilauea;2014;11;10;1222;Shield volcano;Historical;Hawaiian Is;United States;;;;;;;14.5;SEVERE (~>$5 to $24 million);1;19.425;-155.292;0
+Sinabung;2016;5;9;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;;1;;4;;LIMITED (roughly corresponding to less than $1 million);3;3.17;98.392;0
+Manam;2019;1;7;1807;Stratovolcano;Historical;New Guinea-NE of;Papua New Guinea;;;4;;;;;LIMITED (roughly corresponding to less than $1 million);;-4.1;145.061;0
+Sinabung;2019;5;7;2460;Stratovolcano;Holocene;Sumatra;Indonesia;;;;;;;;MODERATE (~$1 to $5 million);;3.17;98.392;0
+Ilopango;450;;;450;Caldera;Historical;El Salvador;El Salvador;;;6;30000;;;;;;13.672;-89.053;0
+Pacaya;1565;8;;2552;Complex volcano;Historical;Guatemala;Guatemala;;Earthquake;3;;;;;LIMITED (roughly corresponding to less than $1 million);;14.381;-90.601;0
+Kirishima;1716;11;9;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;3;1;;31;;;;31.93;130.87;0
+Asama;1721;6;22;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;1;15;;;;;;36.4;138.53;0
+Kliuchevskoi;1762;;;4835;Stratovolcano;Historical;Kamchatka;Russia;;;2;;;;;;;56.057;160.638;0
+Sabancaya;1784;7;;5967;Stratovolcano;Historical;Peru;Peru;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;-15.78;-71.85;0
+Dieng Volc Complex;1786;;;2565;Complex volcano;Historical;Java;Indonesia;;;2;38;;;;;;-7.2;109.92;0
+Guntur;1800;10;8;2249;Complex volcano;Historical;Java;Indonesia;;;;;;;;;;-7.13;107.83;0
+Hualalai;1800;;;2523;Shield volcano;Historical;Hawaiian Is;United States;;;0;2;;;;;;19.692;-155.87;0
+Unnamed;1839;2;12;-642;Submarine volcano;Uncertain;Chile-Is;Chile;Tsunami;;2;;;;;;;-33.62;-76.83;0
+Grimsvotn;1861;5;;1725;Caldera;Historical;Iceland-NE;Iceland;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;64.42;-17.33;0
+Rabaul;1878;1;;688;Pyroclastic shield;Historical;New Britain-SW Pac;Papua New Guinea;Tsunami;Earthquake;3;1;;;;;;-4.271;152.203;0
+Kelut;1901;5;22;1731;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;;;-7.93;112.308;0
+Taal;1911;1;30;400;Stratovolcano;Historical;Luzon-Philippines;Philippines;Tsunami;Earthquake;3;1335;;199;;SEVERE (~>$5 to $24 million);543;14.002;120.993;0
+Lengai, Ol Doinyo;1917;1;1;2890;Stratovolcano;Historical;Africa-E;Tanzania;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;-2.751;35.902;0
+Nasu;1921;11;26;1917;Stratovolcano;Historical;Honshu-Japan;Japan;;;;1;;;;;;37.12;139.97;0
+Hakone;1933;5;10;1438;Complex volcano;Radiocarbon;Honshu-Japan;Japan;;;;1;;;;;;35.22;139.02;0
+Semeru;1941;9;21;3676;Stratovolcano;Historical;Java;Indonesia;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-8.108;112.92;0
+Usu;1944;6;23;731;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;2;1;;;;;;42.53;140.83;0
+Hekla;1947;11;2;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;1;;;;;;63.98;-19.7;0
+Kusatsu-Shirane;1976;8;3;2176;Stratovolcano;Historical;Honshu-Japan;Japan;;;;3;;;;;;36.62;138.55;0
+Etna;1979;7;5;3350;Stratovolcano;Historical;Italy;Italy;;;2;9;;23;;;;37.734;15.004;0
+Galunggung;1982;5;17;2168;Stratovolcano;Historical;Java;Indonesia;;;4;68;;;15;SEVERE (~>$5 to $24 million);;-7.25;108.05;0
+Arenal;1988;7;6;1657;Stratovolcano;Historical;Costa Rica;Costa Rica;;;3;1;;;;;;10.463;-84.703;0
+Karthala;2005;11;24;2361;Shield volcano;Historical;Indian O-W;Comoros;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;-11.75;43.38;0
+Tengger Caldera;2010;12;28;2329;Stratovolcano;Historical;Java;Indonesia;;;;;;;;LIMITED (roughly corresponding to less than $1 million);;-7.942;112.95;0
+Santorini;-1610;;;329;Shield volcano;Historical;Greece;Greece;Tsunami;Earthquake;7;;;;;SEVERE (~>$5 to $24 million);;36.404;25.396;0
+St. Andrew Strait;-150;;;270;Complex volcano;Historical;Admiralty Is-SW Paci;Papua New Guinea;;;;;;;;;;-2.38;147.35;0
+Okmok;-100;;;1073;Shield volcano;Historical;Aleutian Is;United States;;;6;;;;;;;53.42;-168.13;0
+Hekla;1341;5;19;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;63.98;-19.7;0
+Kuwae;1430;;;-2;Caldera;Historical;Vanuatu-SW Pacific;Vanuatu;;;;;;;;;;-16.829;168.536;0
+Hekla;1510;7;25;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;1;;;;;;63.98;-19.7;0
+Billy Mitchell;1580;;;1544;Pyroclastic shield;Radiocarbon;Bougainville-SW Paci;Papua New Guinea;;;6;;;;;;;-6.092;155.225;0
+Cereme;1698;;;3078;Stratovolcano;Historical;Java;Indonesia;;;3;;;;;;;-6.892;108.4;0
+Taal;1716;9;24;400;Stratovolcano;Historical;Luzon-Philippines;Philippines;Tsunami;Earthquake;4;;;;;;;14.002;120.993;0
+Fuego;1717;8;27;3763;Stratovolcano;Historical;Guatemala;Guatemala;;;3;;;;;LIMITED (roughly corresponding to less than $1 million);;14.473;-90.88;0
+Katla;1721;5;11;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;5;;;;;LIMITED (roughly corresponding to less than $1 million);;63.63;-19.05;0
+Asuncion;1819;;;857;Stratovolcano;Historical;Mariana Is-C Pacific;United States;Tsunami;;;;;;;;;19.67;145.4;0
+Ruiz;1845;2;19;5321;Stratovolcano;Historical;Colombia;Colombia;;;3;1000;;;;;;4.895;-75.322;0
+Kirishima;1895;10;16;1700;Shield volcano;Historical;Kyushu-Japan;Japan;;;2;4;;;;;;31.93;130.87;0
+Epi;1901;8;9;833;Stratovolcano;Historical;Vanuatu-SW Pacific;Vanuatu;Tsunami;Earthquake;;;;;;;;-16.68;168.37;0
+Unnamed;1907;7;;-500;Submarine volcano;Historical;Tonga-SW Pacific;Tonga;Tsunami;Earthquake;0;;;;;;;-21.38;-175.65;0
+Krakatau;1928;3;28;813;Caldera;Historical;Indonesia;Indonesia;Tsunami;;;;;;;;;-6.102;105.423;0
+Lengai, Ol Doinyo;1940;7;24;2890;Stratovolcano;Historical;Africa-E;Tanzania;;;2;;;;;LIMITED (roughly corresponding to less than $1 million);;-2.751;35.902;0
+Semeru;1946;2;;3676;Stratovolcano;Historical;Java;Indonesia;;;2;6;;;;MODERATE (~$1 to $5 million);81;-8.108;112.92;0
+Merapi;1953;3;23;2947;Stratovolcano;Historical;Java;Indonesia;;;3;64;;57;;MODERATE (~$1 to $5 million);144;-7.542;110.442;0
+Tate-yama;1954;7;21;2621;Stratovolcano;Historical;Honshu-Japan;Japan;;;;1;;;;;;36.57;137.6;0
+Asama;1961;8;18;2560;Complex volcano;Historical;Honshu-Japan;Japan;;;2;1;;;;;;36.4;138.53;0
+Tokachi;1962;6;29;2077;Stratovolcano;Historical;Hokkaido-Japan;Japan;;;3;5;;11;;;;43.42;142.68;0
+Agung;1963;5;16;3142;Stratovolcano;Historical;Lesser Sunda Is;Indonesia;;Earthquake;3;120;;;;;;-8.342;115.508;0
+Didicas;1969;3;21;244;Compound volcano;Historical;Luzon-N of;Philippines;Tsunami;;2;;;;;;;19.077;122.202;0
+Karangetang [Api Siau];1997;4;17;1784;Stratovolcano;Historical;Sangihe Is-Indonesia;Indonesia;;;1;3;;;;;;2.78;125.48;0
+Semeru;2000;7;27;3676;Stratovolcano;Historical;Java;Indonesia;;;3;2;;;;;;-8.108;112.92;0
+Kilauea;2009;11;30;1222;Shield volcano;Historical;Hawaiian Is;United States;;;;;;;;MODERATE (~$1 to $5 million);;19.425;-155.292;0
+Merapi;2011;1;3;2947;Stratovolcano;Historical;Java;Indonesia;;;;1;;1;;LIMITED (roughly corresponding to less than $1 million);;-7.542;110.442;0
