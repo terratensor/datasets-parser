@@ -16,9 +16,9 @@ type DBEntity struct {
 	Filename        string
 	Name            string
 	Description     string
-	Longitude       float64
-	Latitude        float64
-	Height          float64
+	Longitude       float64     `gorm:"type:double precision"`
+	Latitude        float64     `gorm:"type:double precision"`
+	Height          float64     `gorm:"type:double precision"`
 	DescriptionJson interface{} `gorm:"type:json"`
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
