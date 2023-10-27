@@ -127,7 +127,8 @@ func (csvRecord *CSVRecord) parse(record []string, line int) {
 			if value == "" {
 				log.Printf("Parsing line %d failed, unexpected type in column %d\n", line, idx)
 				csvRecord.ParseError = fmt.Errorf("empty string value")
-				break
+				csvRecord.Name = "untitled"
+				continue
 			}
 			csvRecord.Name = value
 			continue

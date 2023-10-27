@@ -20,6 +20,7 @@ type DBEntity struct {
 	Latitude        float64     `gorm:"type:double precision"`
 	Height          float64     `gorm:"type:double precision"`
 	DescriptionJson interface{} `gorm:"type:json"`
+	CellID          string
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
 	DeletedAt       *time.Time
@@ -58,6 +59,7 @@ func (es *Entities) Create(ctx context.Context, e entity.Entity) error {
 		Latitude:        e.Latitude,
 		Height:          e.Height,
 		DescriptionJson: e.DescriptionJson,
+		CellID:          e.CellID,
 		CreatedAt:       time.Now(),
 		UpdatedAt:       time.Now(),
 		DeletedAt:       nil,
@@ -80,6 +82,7 @@ func (es *Entities) BulkInsert(ctx context.Context, entities []entity.Entity, ba
 			Latitude:        e.Latitude,
 			Height:          e.Height,
 			DescriptionJson: e.DescriptionJson,
+			CellID:          e.CellID,
 			CreatedAt:       time.Now(),
 			UpdatedAt:       time.Now(),
 			DeletedAt:       nil,

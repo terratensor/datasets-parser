@@ -3,7 +3,6 @@ package entity
 import (
 	"context"
 	"fmt"
-
 	"github.com/google/uuid"
 )
 
@@ -17,6 +16,7 @@ type Entity struct {
 	Latitude        float64
 	Height          float64
 	DescriptionJson interface{}
+	CellID          string
 }
 
 type Store interface {
