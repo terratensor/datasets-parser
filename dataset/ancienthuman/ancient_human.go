@@ -44,7 +44,7 @@ func NewCSVEntries(path string) (*Entries, error) {
 	return es, nil
 }
 
-func (nd *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
+func (e *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 
 	select {
 	case <-ctx.Done():
@@ -58,7 +58,7 @@ func (nd *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 		defer close(chout)
 
 		// Открываем dataset файл
-		f, err := os.Open(nd.path)
+		f, err := os.Open(e.path)
 		if err != nil {
 			log.Println(fmt.Errorf("%v", err))
 		}
@@ -88,7 +88,7 @@ func (nd *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 			// Create a CSVRecord value for the row.
 			var csvRecord CSVRecord
 
-			csvRecord.parse(record, line)
+			csvRecord.parse(record, line, e.path)
 
 			select {
 			case <-ctx.Done():
@@ -116,7 +116,7 @@ func getDescriptionJson(record CSVRecord) DescriptionJson {
 	}
 }
 
-func (csvRecord *CSVRecord) parse(record []string, line int) {
+func (csvRecord *CSVRecord) parse(record []string, line int, path string) {
 
 	//log.Println(record)
 	// Parse each of the values in the record based on an expected type.
@@ -125,7 +125,7 @@ func (csvRecord *CSVRecord) parse(record []string, line int) {
 		// Parse the value in the record as a string for the string column.
 		if idx == 0 {
 			if value == "" {
-				log.Printf("Parsing line %d failed, unexpected type in column %d\n", line, idx)
+				log.Printf("Parsing %v, line %d failed, unexpected type in column %d\n, set «untitled»", path, line, idx)
 				csvRecord.ParseError = fmt.Errorf("empty string value")
 				csvRecord.Name = "untitled"
 				continue
