@@ -20,7 +20,7 @@ type DBEntity struct {
 	Latitude        float64     `gorm:"type:double precision"`
 	Height          float64     `gorm:"type:double precision"`
 	DescriptionJson interface{} `gorm:"type:json"`
-	CellID          string
+	CellID          string      `gorm:"type:char(16)"`
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
 	DeletedAt       *time.Time

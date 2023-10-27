@@ -8,6 +8,7 @@ import (
 	"github.com/audetv/datasets-parser/dataset/allcities"
 	"github.com/audetv/datasets-parser/dataset/ancienthuman"
 	"github.com/audetv/datasets-parser/dataset/bibleplaces"
+	"github.com/golang/geo/s2"
 	"github.com/google/uuid"
 	"log"
 	"os"
@@ -51,6 +52,8 @@ func (a *App) parseDataset(ctx context.Context, entries dataset.Store, filename 
 				DescriptionJson: entry.DescriptionJson,
 			}
 
+			en.CellID = calculateGeohash(en.Latitude, en.Longitude)
+
 			entities = append(entities, en)
 			batchSizeCount++
 		}
@@ -70,6 +73,15 @@ func (a *App) parseDataset(ctx context.Context, entries dataset.Store, filename 
 	if len(entities) > 0 {
 		err = a.entities.BulkInsert(ctx, entities, len(entities))
 	}
+}
+
+func calculateGeohash(lat float64, lon float64) string {
+	latlng := s2.LatLngFromDegrees(lat, lon)
+	cellID := s2.CellIDFromLatLng(latlng)
+	//b := make([]byte, 8)
+	//binary.LittleEndian.PutUint64(b, uint64(cellID))
+	//en.CellID = cellID.ToToken()[8:]
+	return cellID.ToToken()
 }
 
 func (a *App) Process(ctx context.Context) {
