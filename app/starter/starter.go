@@ -8,6 +8,7 @@ import (
 	"github.com/audetv/datasets-parser/dataset/allcities"
 	"github.com/audetv/datasets-parser/dataset/ancienthuman"
 	"github.com/audetv/datasets-parser/dataset/bibleplaces"
+	"github.com/audetv/datasets-parser/dataset/globalpowerplant"
 	"github.com/golang/geo/s2"
 	"github.com/google/uuid"
 	"log"
@@ -226,6 +227,12 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 		return ne, nil
 	case "Православные Храмы.csv":
 		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "global_power_plant_DB_parsed.csv":
+		ne, err := globalpowerplant.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
 		}
