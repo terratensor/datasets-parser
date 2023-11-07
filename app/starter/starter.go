@@ -231,7 +231,7 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 			return nil, err
 		}
 		return ne, nil
-	case "global_power_plant_DB_parsed.csv":
+	case "global_power_plant_database_github.csv":
 		ne, err := globalpowerplant.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err

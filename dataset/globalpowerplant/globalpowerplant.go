@@ -18,13 +18,14 @@ type CSVRecord struct {
 	Country           string
 	Name              string
 	CapacityMw        string
+	Latitude          float64
+	Longitude         float64
 	PrimaryFuel       string
 	SecondaryFuel     string
 	CommissioningYear string
 	Owner             string
-	Latitude          float64
-	Longitude         float64
-	Height            float64
+	Source            string
+	Url               string
 	ParseError        error
 }
 
@@ -35,6 +36,8 @@ type DescriptionJson struct {
 	SecondaryFuel     string `json:"secondary_fuel,omitempty"`
 	CommissioningYear string `json:"commissioning_year,omitempty"`
 	Owner             string `json:"owner,omitempty"`
+	Source            string `json:"source,omitempty"`
+	Url               string `json:"url,omitempty"`
 }
 
 type Entries struct {
@@ -76,8 +79,8 @@ func (e *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 
 		// Создаём новый CSV reader, читающий записи из открытого файла.
 		reader := csv.NewReader(f)
-		reader.FieldsPerRecord = 10
-		reader.Comma = ';'
+		reader.FieldsPerRecord = 11
+		//reader.Comma = ';'
 
 		// line will help us keep track of line number for logging.
 		line := 0
@@ -108,7 +111,7 @@ func (e *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 				Description:     csvRecord.Country,
 				Longitude:       csvRecord.Longitude,
 				Latitude:        csvRecord.Latitude,
-				Height:          csvRecord.Height,
+				Height:          0,
 				DescriptionJson: getDescriptionJson(csvRecord),
 			}:
 			}
@@ -128,6 +131,8 @@ func getDescriptionJson(record CSVRecord) DescriptionJson {
 		SecondaryFuel:     record.SecondaryFuel,
 		CommissioningYear: record.CommissioningYear,
 		Owner:             record.Owner,
+		Source:            record.Source,
+		Url:               record.Url,
 	}
 }
 
@@ -164,19 +169,21 @@ func (csvRecord *CSVRecord) parse(record []string, line int, path string) {
 		case 2:
 			csvRecord.CapacityMw = value
 		case 3:
-			csvRecord.PrimaryFuel = value
-		case 4:
-			csvRecord.SecondaryFuel = value
-		case 5:
-			csvRecord.CommissioningYear = value
-		case 6:
-			csvRecord.Owner = value
-		case 7:
 			csvRecord.Latitude = parseCoordinate(idx, line, value)
-		case 8:
+		case 4:
 			csvRecord.Longitude = parseCoordinate(idx, line, value)
+		case 5:
+			csvRecord.PrimaryFuel = value
+		case 6:
+			csvRecord.SecondaryFuel = value
+		case 7:
+			csvRecord.CommissioningYear = value
+		case 8:
+			csvRecord.Owner = value
 		case 9:
-			csvRecord.Height = parseCoordinate(idx, line, value)
+			csvRecord.Source = value
+		case 10:
+			csvRecord.Url = value
 		}
 	}
 }
