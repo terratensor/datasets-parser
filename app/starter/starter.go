@@ -122,7 +122,7 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 			return nil, err
 		}
 		return ne, nil
-	case "utf8.all-cities-with-a-population.csv":
+	case "all-cities-with-a-population.csv":
 		ne, err := allcities.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
