@@ -12,6 +12,7 @@ import (
 	"github.com/audetv/datasets-parser/dataset/globalterrorismdb"
 	"github.com/audetv/datasets-parser/dataset/monolith"
 	"github.com/audetv/datasets-parser/dataset/pleiades"
+	"github.com/audetv/datasets-parser/dataset/romantradestamps"
 	"github.com/golang/geo/s2"
 	"github.com/google/uuid"
 	"log"
@@ -254,6 +255,12 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 		return ne, nil
 	case "pleiades_data_places.csv":
 		ne, err := pleiades.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Roman trade stamps ascii.csv":
+		ne, err := romantradestamps.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
 		}
