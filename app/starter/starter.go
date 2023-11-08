@@ -10,6 +10,7 @@ import (
 	"github.com/audetv/datasets-parser/dataset/bibleplaces"
 	"github.com/audetv/datasets-parser/dataset/globalpowerplant"
 	"github.com/audetv/datasets-parser/dataset/globalterrorismdb"
+	"github.com/audetv/datasets-parser/dataset/monolith"
 	"github.com/golang/geo/s2"
 	"github.com/google/uuid"
 	"log"
@@ -240,6 +241,12 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 		return ne, nil
 	case "globalterrorismdb_full_may2023.csv":
 		ne, err := globalterrorismdb.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "monolith_tracker_parsed.csv":
+		ne, err := monolith.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
 		}
