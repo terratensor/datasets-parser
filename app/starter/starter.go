@@ -8,6 +8,7 @@ import (
 	"github.com/audetv/datasets-parser/dataset/allcities"
 	"github.com/audetv/datasets-parser/dataset/ancienthuman"
 	"github.com/audetv/datasets-parser/dataset/bibleplaces"
+	"github.com/audetv/datasets-parser/dataset/earthquake"
 	"github.com/audetv/datasets-parser/dataset/globalpowerplant"
 	"github.com/audetv/datasets-parser/dataset/globalterrorismdb"
 	"github.com/audetv/datasets-parser/dataset/monolith"
@@ -261,6 +262,12 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 		return ne, nil
 	case "Roman trade stamps ascii.csv":
 		ne, err := romantradestamps.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "significant-earthquake-database-parsed.csv":
+		ne, err := earthquake.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
 		}
