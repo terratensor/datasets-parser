@@ -58,7 +58,8 @@ func (a *App) parseDataset(ctx context.Context, entries dataset.Store, filename 
 				DescriptionJson: entry.DescriptionJson,
 			}
 
-			en.CellID = calculateGeohash(en.Latitude, en.Longitude)
+			en.CellID = calculateCellID(en.Latitude, en.Longitude)
+			en.Geohash = calculateGeohash(en.Latitude, en.Longitude)
 
 			entities = append(entities, en)
 			batchSizeCount++
@@ -88,6 +89,15 @@ func calculateGeohash(lat float64, lon float64) string {
 	//binary.LittleEndian.PutUint64(b, uint64(cellID))
 	//en.CellID = cellID.ToToken()[8:]
 	return cellID.ToToken()
+}
+
+func calculateCellID(lat float64, lon float64) uint64 {
+	latlng := s2.LatLngFromDegrees(lat, lon)
+	cellID := s2.CellIDFromLatLng(latlng)
+	//b := make([]byte, 8)
+	//binary.LittleEndian.PutUint64(b, uint64(cellID))
+	//en.CellID = cellID.ToToken()[8:]
+	return uint64(cellID)
 }
 
 func (a *App) Process(ctx context.Context) {
