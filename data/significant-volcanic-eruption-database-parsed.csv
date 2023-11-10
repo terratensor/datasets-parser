@@ -1,4 +1,4 @@
-﻿Volcano Name;Year;Month;Day;Elevation;Volcano Type;Status;Location;Country;Flag Tsunami;Flag Earthquake;Volcanic Explosivity Index;Deaths;Missing;Injuries;Damage (in M$);Damage Description;Houses destroyed;Lat;Lon;Height
+﻿Volcano Name;Year;Month;Day;Elevation;Volcano Type;Status;Location;Country;Flag Tsunami;Flag Earthquake;Volcanic Explosivity Index;Deaths;Missing;Injuries;Damage;Damage Description;Houses destroyed;Lat;Lon;Height
 Etna;-141;;;3350;Stratovolcano;Historical;Italy;Italy;;;;40;;;;;;37.734;15.004;0
 Katla;1262;;;1512;Subglacial volcano;Historical;Iceland-S;Iceland;;;3;;;;;;;63.63;-19.05;0
 Hekla;1300;7;11;1491;Stratovolcano;Historical;Iceland-S;Iceland;;;4;;;;;;;63.98;-19.7;0
