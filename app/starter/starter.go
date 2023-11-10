@@ -14,6 +14,7 @@ import (
 	"github.com/audetv/datasets-parser/dataset/monolith"
 	"github.com/audetv/datasets-parser/dataset/pleiades"
 	"github.com/audetv/datasets-parser/dataset/romantradestamps"
+	"github.com/audetv/datasets-parser/dataset/unesco"
 	"github.com/audetv/datasets-parser/dataset/volcanic"
 	"github.com/golang/geo/s2"
 	"github.com/google/uuid"
@@ -285,6 +286,12 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 		return ne, nil
 	case "significant-volcanic-eruption-database-parsed.csv":
 		ne, err := volcanic.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "UNESCO World Heritage.csv":
+		ne, err := unesco.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
 		}
