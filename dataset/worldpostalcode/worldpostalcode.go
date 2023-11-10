@@ -113,7 +113,7 @@ func (e *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 			case <-ctx.Done():
 				return
 			case chout <- dataset.Entry{
-				Name:            csvRecord.PostalCode,
+				Name:            getName(csvRecord),
 				Description:     getDescription(csvRecord),
 				Longitude:       csvRecord.Longitude,
 				Latitude:        csvRecord.Latitude,
@@ -129,8 +129,12 @@ func (e *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 	return chout, nil
 }
 
+func getName(record CSVRecord) string {
+	return fmt.Sprintf("Zip / Postal Code %v — %v", record.CountryCode, record.PostalCode)
+}
+
 func getDescription(record CSVRecord) string {
-	return fmt.Sprintf("%v (%v)", record.PlaceName, record.CountryCode)
+	return fmt.Sprintf("%v", record.PlaceName)
 }
 
 func getDescriptionJson(record CSVRecord) DescriptionJson {
