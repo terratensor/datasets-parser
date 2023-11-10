@@ -17,6 +17,7 @@ import (
 	"github.com/audetv/datasets-parser/dataset/romantradestamps"
 	"github.com/audetv/datasets-parser/dataset/unesco"
 	"github.com/audetv/datasets-parser/dataset/volcanic"
+	"github.com/audetv/datasets-parser/dataset/worldpostalcode"
 	"github.com/golang/geo/s2"
 	"github.com/google/uuid"
 	"log"
@@ -305,6 +306,12 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 		return ne, nil
 	case "Импактные структуры Земли.csv":
 		ne, err := impactstructures.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "world-postal-code.csv":
+		ne, err := worldpostalcode.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
 		}
