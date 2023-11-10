@@ -125,7 +125,7 @@ func (e *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 				return
 			case chout <- dataset.Entry{
 				Name:            csvRecord.LocationName,
-				Description:     csvRecord.Country,
+				Description:     getDescription(csvRecord),
 				Longitude:       csvRecord.Lon,
 				Latitude:        csvRecord.Lat,
 				Height:          csvRecord.Height,
@@ -138,6 +138,10 @@ func (e *Entries) ReadAll(ctx context.Context) (chan dataset.Entry, error) {
 	}()
 
 	return chout, nil
+}
+
+func getDescription(record CSVRecord) string {
+	return fmt.Sprintf("%v", record.Country)
 }
 
 func getDescriptionJson(record CSVRecord) DescriptionJson {
