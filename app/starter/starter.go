@@ -104,9 +104,8 @@ func calculateCellID(lat float64, lon float64) uint64 {
 	return uint64(cellID)
 }
 
-func (a *App) Process(ctx context.Context) {
+func (a *App) Process(ctx context.Context, folder string) {
 
-	folder := "data"
 	// читаем все файлы в директории
 	files, err := os.ReadDir(folder)
 	if err != nil {
