@@ -16,7 +16,8 @@ type Entity struct {
 	Latitude        float64
 	Height          float64
 	DescriptionJson interface{}
-	CellID          string
+	CellID          uint64
+	Geohash         string
 }
 
 type Store interface {

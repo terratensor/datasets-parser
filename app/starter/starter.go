@@ -8,6 +8,16 @@ import (
 	"github.com/audetv/datasets-parser/dataset/allcities"
 	"github.com/audetv/datasets-parser/dataset/ancienthuman"
 	"github.com/audetv/datasets-parser/dataset/bibleplaces"
+	"github.com/audetv/datasets-parser/dataset/earthquake"
+	"github.com/audetv/datasets-parser/dataset/globalpowerplant"
+	"github.com/audetv/datasets-parser/dataset/globalterrorismdb"
+	"github.com/audetv/datasets-parser/dataset/impactstructures"
+	"github.com/audetv/datasets-parser/dataset/monolith"
+	"github.com/audetv/datasets-parser/dataset/pleiades"
+	"github.com/audetv/datasets-parser/dataset/romantradestamps"
+	"github.com/audetv/datasets-parser/dataset/unesco"
+	"github.com/audetv/datasets-parser/dataset/volcanic"
+	"github.com/audetv/datasets-parser/dataset/worldpostalcode"
 	"github.com/golang/geo/s2"
 	"github.com/google/uuid"
 	"log"
@@ -52,7 +62,8 @@ func (a *App) parseDataset(ctx context.Context, entries dataset.Store, filename 
 				DescriptionJson: entry.DescriptionJson,
 			}
 
-			en.CellID = calculateGeohash(en.Latitude, en.Longitude)
+			en.CellID = calculateCellID(en.Latitude, en.Longitude)
+			en.Geohash = calculateGeohash(en.Latitude, en.Longitude)
 
 			entities = append(entities, en)
 			batchSizeCount++
@@ -84,9 +95,17 @@ func calculateGeohash(lat float64, lon float64) string {
 	return cellID.ToToken()
 }
 
-func (a *App) Process(ctx context.Context) {
+func calculateCellID(lat float64, lon float64) uint64 {
+	latlng := s2.LatLngFromDegrees(lat, lon)
+	cellID := s2.CellIDFromLatLng(latlng)
+	//b := make([]byte, 8)
+	//binary.LittleEndian.PutUint64(b, uint64(cellID))
+	//en.CellID = cellID.ToToken()[8:]
+	return uint64(cellID)
+}
 
-	folder := "data"
+func (a *App) Process(ctx context.Context, folder string) {
+
 	// читаем все файлы в директории
 	files, err := os.ReadDir(folder)
 	if err != nil {
@@ -122,7 +141,7 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 			return nil, err
 		}
 		return ne, nil
-	case "utf8.all-cities-with-a-population.csv":
+	case "all-cities-with-a-population.csv":
 		ne, err := allcities.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
@@ -196,6 +215,102 @@ func getEntriesInstance(entries dataset.Store, folder string, filename string) (
 		return ne, nil
 	case "Все вулканы мира.csv":
 		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Древнееегипетские захоронения.csv":
+		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Королевские резиденции.csv":
+		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Полезные ископаемые мира.csv":
+		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Полюса недоступности Земли.csv":
+		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Православные Храмы.csv":
+		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "global_power_plant_database_github.csv":
+		ne, err := globalpowerplant.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "globalterrorismdb_full_may2023.csv":
+		ne, err := globalterrorismdb.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "monolith_tracker_parsed.csv":
+		ne, err := monolith.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "pleiades_data_places.csv":
+		ne, err := pleiades.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Roman trade stamps ascii.csv":
+		ne, err := romantradestamps.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "significant-earthquake-database-parsed.csv":
+		ne, err := earthquake.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "significant-volcanic-eruption-database-parsed.csv":
+		ne, err := volcanic.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "UNESCO World Heritage.csv":
+		ne, err := unesco.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Атомные станции.csv":
+		ne, err := ancienthuman.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "Импактные структуры Земли.csv":
+		ne, err := impactstructures.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
+		if err != nil {
+			return nil, err
+		}
+		return ne, nil
+	case "world-postal-code.csv":
+		ne, err := worldpostalcode.NewCSVEntries(fmt.Sprintf("%v/%v", folder, filename))
 		if err != nil {
 			return nil, err
 		}
